@@ -243,6 +243,7 @@ header {
 --------------------------------------------- */
 section {
   scroll-margin-top: 70px;
+  padding-bottom: 1rem;
 }
 
 #what-does-it-do p,
@@ -251,7 +252,7 @@ section {
 }
 
 #what-does-it-do .description-image {
-  margin: 1.5rem 0 4rem;
+  margin: 1.5rem 0 0;
 }
 
 #what-does-it-do figcaption,
@@ -306,7 +307,8 @@ section {
 
 #what-does-it-do .markdown-preview,
 #what-does-it-do .html-preview,
-#where-would-you-use-it .slack-preview {
+#where-would-you-use-it .slack-preview,
+#where-would-you-use-it .swaggerui-preview {
   margin-top: -4.5rem;
   height: 4.5rem;
 }
