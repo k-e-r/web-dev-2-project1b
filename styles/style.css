@@ -268,11 +268,15 @@ section {
   font-size: 0.9rem;
 }
 
-#what-does-it-do .image-link img {
+#what-does-it-do .image-link {
   cursor: zoom-in;
+  display: block;
+  justify-self: center;
+}
+
+#what-does-it-do .image-link img {
   max-width: 800px;
   margin: auto;
-  display: block;
   width: 100%;
 }
 
