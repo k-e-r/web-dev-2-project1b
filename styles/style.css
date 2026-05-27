@@ -273,6 +273,7 @@ section {
   max-width: 800px;
   margin: auto;
   display: block;
+  width: 100%;
 }
 
 #what-does-it-do .popup {
