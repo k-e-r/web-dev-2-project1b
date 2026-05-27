@@ -212,13 +212,112 @@
           </section>
 
           <!-- Kaori -->
-          <section id="what-does-it-do">
+          <section id="where-would-you-use-it">
             <h2>Where would you use it</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
-            Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
-            Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
-            Architecto, temporibus! Id reiciendis commodi ea amet! Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque, maiores perferendis corporis eveniet quaerat laudantium! Aut mollitia sapiente, corrupti magnam quas dolor.
-            Non nemo assumenda laboriosam autem pariatur modi rem! Sequi quasi eaque harum aliquam dicta asperiores nihil reprehenderit, blanditiis reiciendis fugit omnis exercitationem animi dolorem eveniet quibusdam voluptas. Quibusdam, repellendus ducimus.</p>
+            <p>You can use Markdown in many places!</p>
+            <p class="text-sm">Well, not literally everywhere, but more often than you might think.</p>
+            <p class="mt-1">For example, have you ever made text bold in Slack? That kind of simple formatting is similar to Markdown.</p>
+            <p>Basic Markdown lets you create simple elements like headings, lists, links, images, and bold or italic text. However, it does not let you do everything. For example, pure Markdown cannot change text color.</p>
+            <p class="mt-1">As mentioned in the “What Is It?” section, different platforms may interpret Markdown differently or add their own extra features. These versions are often called <a href="https://www.markdownguide.org/getting-started/#flavors-of-markdown" target="_blank" rel="noopener noreferrer">Markdown “flavors.”</a></p>
+            <p>That is why Markdown may look slightly different depending on where you use it.</p>
+
+            <div class="slack-sample-discription">
+              <p class="mt-15">Let's look at some common places where Markdown or Markdown-like syntax is used.</p>
+              <p>Here is a sample from Slack. Can you guess how many formatting features this post uses?</p>
+
+              <div id="slack-preview" class="slack-preview" aria-hidden="true"></div>
+              <figure>
+                <a href="#slack-zoomin" class="image-link">
+                  <img
+                    class="slack-sample-image"
+                    src="assets/images/slack-sample-566.png"
+                    srcset="
+                      assets/images/slack-sample-566.png 566w,
+                      assets/images/slack-sample-1132.png 1132w
+                    "
+                    sizes="(max-width: 600px) 100vw, 566px"
+                    alt="Slack message example showing @channel, a user mention, bold text, and an animated emoji"
+                    width="566"
+                    height="226"
+                  >
+                </a>
+                <figcaption>
+                  Slack uses Markdown-like formatting, such as bold text, along with its own features like mentions and emoji.
+                </figcaption>
+              </figure>
+
+              <div id="slack-zoomin" class="popup">
+                <a href="#slack-preview" class="popup-close" aria-label="Close enlarged image"></a>
+
+                <img
+                  src="assets/images/slack-sample-1132.png"
+                  alt="Slack message example showing @channel, a user mention, bold text, and an animated emoji"
+                >
+              </div>
+
+              <p>It uses four features. Let's check them out.</p>
+              <p>First, it uses <span class="quote-container">@channel</span>. This sends a notification to everyone in the channel, so it is useful when you need to share an important message with the whole group.</p>
+              <p>Next, it mentions <span class="quote-container">@Michael Chow (Instructor)</span>. This sends a notification to a specific person and makes it clear who the message is directed to.</p>
+              <p>The bold text, <span class="quote-container">gbads</span>, may already look familiar to you. Slack uses simple symbols to make text bold, similar to Markdown.</p>
+              <p>Lastly, it includes an animated icon or emoji using codes like <span class="quote-container">:gabs:</span>. This is not part of basic Markdown, but it shows how tools like Slack add their own extra features on top of simple text formatting.</p>
+            </div>
+
+            <div class="swaggerui-sample-discription">
+              <p class="mt-15">Here is another sample from Swagger UI.</p>
+              <p>Swagger UI is a tool that turns API specifications into interactive documentation. Developers can use it to explain API endpoints, request formats, and responses in a readable way.</p>
+              <p>You can also use Markdown syntax in API description files to make the documentation easier to read.</p>
+              <p class="mt-1">For example, the image below shows examples of <span class="quote-container">bold text</span> and <span class="quote-container">italic text</span> written with Markdown syntax.</p>
+
+              <div id="swaggerui-preview" class="swaggerui-preview" aria-hidden="true"></div>
+              <figure>
+                <a href="#swaggerui-zoomin" class="image-link">
+                  <picture>
+                    <source
+                      media="(min-width: 900px)"
+                      srcset="assets/images/swaggerui-sample-1444.png"
+                      width="1444"
+                      height="451"
+                    >
+                    <img
+                      class="swaggerui-sample-image"
+                      src="assets/images/swaggerui-sample-600.png"
+                      alt="Swagger UI screenshot showing an API documentation sample beside a YAML file with Markdown syntax"
+                      width="600"
+                      height="226"
+                    >
+                  </picture>
+                </a>
+
+                <figcaption>
+                  Swagger UI can display API descriptions written with Markdown-style formatting.
+                </figcaption>
+              </figure>
+
+              <div id="swaggerui-zoomin" class="popup">
+                <a
+                  href="#swaggerui-preview"
+                  class="popup-close"
+                  aria-label="Close enlarged image"
+                ></a>
+
+                <picture class="popup-image">
+                  <source
+                    media="(min-width: 900px)"
+                    srcset="assets/images/swaggerui-sample-1444.png"
+                    width="1444"
+                    height="451"
+                  >
+                  <img
+                    src="assets/images/swaggerui-sample-600.png"
+                    alt="Enlarged Swagger UI screenshot showing an API documentation sample beside a YAML file with Markdown syntax"
+                    width="600"
+                    height="226"
+                  >
+                </picture>
+              </div>
+
+              <p>I'll explain how to use them in more detail later in the <a href="#demo">“Demo” section</a>.</p>
+            </div>
           </section>
 
           <!-- Talia -->
@@ -275,7 +374,7 @@
       </div>
 
       <footer>
-        <p>&copy 2025 FWD</p>
+        <p>&copy; 2026. FWD</p>
       </footer>
     </div>
   </body>
