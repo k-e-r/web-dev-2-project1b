@@ -307,7 +307,8 @@ section {
 
 #what-does-it-do .markdown-preview,
 #what-does-it-do .html-preview,
-#where-would-you-use-it .slack-preview {
+#where-would-you-use-it .slack-preview,
+#where-would-you-use-it .swaggerui-preview {
   margin-top: -4.5rem;
   height: 4.5rem;
 }
