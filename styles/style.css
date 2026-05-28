@@ -1,9 +1,10 @@
-
 /* Box Sizing Reset */
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -14,15 +15,15 @@ img {
 }
 
 body {
-  background-color: #6C6C6C;
+  background-color: #6c6c6c;
   margin: 0;
-	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #282828;
-	background-color: #fffbf7;
-	overflow-x: hidden;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #282828;
+  background-color: #fffbf7;
+  overflow-x: hidden;
 }
 
 h1,
@@ -31,47 +32,46 @@ h3,
 h4,
 h5,
 h6 {
-	margin: .5em 0;
-	font-size: 1.75rem;
+  margin: 0.5em 0;
+  font-size: 1.75rem;
 }
 
 h2 {
-	font-size: 1.5rem;
-	font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 h3 {
-	font-size: 1.4rem;
-	font-weight: 700;
-	margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0;
 }
 
 p {
-	font-size: 1rem;
-	line-height: 1.3;
+  font-size: 1rem;
+  line-height: 1.3;
 }
 
 @media (min-width: 50em) {
-	h2 {
-		font-size: 2.5rem;
-		text-align: start;
-	}
+  h2 {
+    font-size: 2.5rem;
+    text-align: start;
+  }
 
-	h3 {
-		font-size: 2rem;
-	}
+  h3 {
+    font-size: 2rem;
+  }
 
-	p {
-		font-size: 1.5rem;
-		line-height: 1.4;
-	}
+  p {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
 }
-
 
 /* Elements
 --------------------------------------------- */
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Links
@@ -81,22 +81,22 @@ a:visited,
 a:focus,
 a:active,
 a:focus {
-	color: #000;
-	text-decoration: none;
+  color: #000;
+  text-decoration: none;
   transition: all 0.3s ease;
 }
 
 a:hover {
-	color: #00000070;
+  color: #00000070;
 }
 
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
 .site-wrapper {
-	/* This is for very large screens */
-	max-width: 120rem;
-	margin: 0 auto;
+  /* This is for very large screens */
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 /* Header
@@ -255,6 +255,13 @@ section {
   scroll-margin-top: 70px;
 }
 
+#what-is-it p {
+  margin: 0;
+}
+
+#what-is-it .example-table {
+}
+
 #what-does-it-do p {
   margin: 0;
 }
@@ -311,12 +318,11 @@ footer {
   background-color: #fff;
   border-top: 1px solid #ccc;
   text-align: center;
-	font-size: .75rem;
+  font-size: 0.75rem;
 }
 
-
 @media (min-width: 50em) {
-	footer {
-		font-size: 1rem;
-	}
+  footer {
+    font-size: 1rem;
+  }
 }
