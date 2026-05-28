@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <script src="scripts/menu-animation.js" defer></script>
+    <script src="scripts/copy-heading-link.js" defer></script>
   </head>
   <body>
     <div class="site-wrapper">
@@ -26,11 +27,12 @@
             <ul>
               <li><a href="#overview">Overview</a></li>
               <li><a href="#what-is-it">What Is It?</a></li>
-              <li><a href="#what-does-it-do">Uses</a></li>
-              <li><a href="#why-would-you-use-it">Benefits</a></li>
-              <li><a href="#where-would-you-use-it">Where to Use</a></li>
+              <li><a href="#what-does-it-do">What Does It Do?</a></li>
+              <li><a href="#why-would-you-use-it">Why Would You Use It?</a></li>
+              <li><a href="#where-would-you-use-it">Where Would You Use It?</a></li>
               <li><a href="#pros-and-cons">Pros & Cons</a></li>
               <li><a href="#demo">Demo</a></li>
+              <li><a href="#reference">Reference</a></li>
             </ul>
           </nav>
         </aside>
@@ -38,7 +40,17 @@
         <main id="main">
           <!-- Scott -->
           <section id="overview">
-            <h2>Technology Overview</h2>
+            <h2 class="heading-with-copy">
+              Technology Overview
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('overview', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
             Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
             Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
@@ -48,7 +60,17 @@
 
           <!-- Talia -->
           <section id="what-is-it">
-            <h2>What is it</h2>
+            <h2 class="heading-with-copy">
+              What is it
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('what-is-it', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <div class="description-text">
             <p>
               <strong>Markdown</strong> is a lightweight markup language that
@@ -129,86 +151,141 @@
 
           <!-- Kaori -->
           <section id="what-does-it-do">
-            <h2>What does it do</h2>
+            <h2 class="heading-with-copy">
+              What does it do
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('what-does-it-do', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <div class="description-text">
               <p>Markdown lets you format plain text using simple symbols.</p>
-              <p>With Markdown, you can create headings, lists, links, images, bold or italic text, code blocks, and tables without writing complex HTML.</p>
-              <p>It keeps your writing easy to read in its raw form while allowing it to become clean, structured content.</p>
+              <p>
+                With Markdown, you can create headings, lists, links, images,
+                bold or italic text, code blocks, and tables without writing
+                complex HTML.
+              </p>
+              <p>
+                It keeps your writing easy to read in its raw form while
+                allowing it to become clean, structured content.
+              </p>
             </div>
 
             <div class="description-image">
-              <p>Let's compare Markdown and HTML using the sample images to see how simple and easy Markdown is to read.</p>
-              <p>Here is a sample of Markdown. As you can see, the raw Markdown and the rendered result contain the same information.</p>
+              <p>
+                Let's compare Markdown and HTML using the sample images to see
+                how simple and easy Markdown is to read.
+              </p>
+              <p>
+                Here is a sample of Markdown. As you can see, the raw Markdown
+                and the rendered result contain the same information.
+              </p>
 
-              <div id="markdown-preview" class="markdown-preview" aria-hidden="true"></div>
+              <div
+                id="markdown-preview"
+                class="markdown-preview"
+                aria-hidden="true"
+              ></div>
               <figure>
                 <a href="#markdown-zoomin" class="image-link">
                   <picture>
                     <source
                       srcset="assets/images/README-md-version.webp"
                       type="image/webp"
-                    >
+                    />
                     <img
                       src="assets/images/README-md-version.png"
                       alt="Visual Studio Code screenshot showing Markdown syntax beside a rendered README preview"
                       width="1996"
                       height="1210"
-                    >
+                    />
                   </picture>
                 </a>
 
                 <figcaption>
-                  Markdown syntax on the left and the rendered README preview on the right
+                  Markdown syntax on the left and the rendered README preview on
+                  the right
                 </figcaption>
               </figure>
 
               <div id="markdown-zoomin" class="popup">
-                <a href="#markdown-preview" class="popup-close" aria-label="Close enlarged image"></a>
+                <a
+                  href="#markdown-preview"
+                  class="popup-close"
+                  aria-label="Close enlarged image"
+                ></a>
 
                 <img
                   src="assets/images/README-md-version.png"
                   alt="Visual Studio Code screenshot showing Markdown syntax beside a rendered README preview"
-                >
+                />
               </div>
 
-              <p>Here is a sample of HTML. Since HTML uses text for tag names as well, you can see that it is not as easy to read as Markdown or plain text.</p>
+              <p>
+                Here is a sample of HTML. Since HTML uses text for tag names as
+                well, you can see that it is not as easy to read as Markdown or
+                plain text.
+              </p>
 
-              <div id="html-preview" class="html-preview" aria-hidden="true"></div>
+              <div
+                id="html-preview"
+                class="html-preview"
+                aria-hidden="true"
+              ></div>
               <figure>
                 <a href="#html-zoomin" class="image-link">
                   <picture>
                     <source
                       srcset="assets/images/README-html-version.webp"
                       type="image/webp"
-                    >
+                    />
                     <img
                       src="assets/images/README-html-version.png"
                       alt="Visual Studio Code screenshot showing HTML syntax beside its rendered browser preview"
                       width="1858"
                       height="1094"
-                    >
+                    />
                   </picture>
                 </a>
 
                 <figcaption>
-                  HTML source code on the left and the rendered browser preview on the right
+                  HTML source code on the left and the rendered browser preview
+                  on the right
                 </figcaption>
               </figure>
 
               <div id="html-zoomin" class="popup">
-                <a href="#html-preview" class="popup-close" aria-label="Close enlarged image"></a>
+                <a
+                  href="#html-preview"
+                  class="popup-close"
+                  aria-label="Close enlarged image"
+                ></a>
 
                 <img
                   src="assets/images/README-html-version.png"
                   alt="Visual Studio Code screenshot showing HTML syntax beside its rendered browser preview"
-                >
+                />
               </div>
             </div>
           </section>
 
           <!-- Scott -->
           <section id="why-would-you-use-it">
-            <h2>Why would you use it</h2>
+            <h2 class="heading-with-copy">
+              Why would you use it
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('why-would-you-use-it', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
             Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
             Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
@@ -217,18 +294,137 @@
           </section>
 
           <!-- Kaori -->
-          <section id="what-does-it-do">
-            <h2>Where would you use it</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
-            Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
-            Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
-            Architecto, temporibus! Id reiciendis commodi ea amet! Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque, maiores perferendis corporis eveniet quaerat laudantium! Aut mollitia sapiente, corrupti magnam quas dolor.
-            Non nemo assumenda laboriosam autem pariatur modi rem! Sequi quasi eaque harum aliquam dicta asperiores nihil reprehenderit, blanditiis reiciendis fugit omnis exercitationem animi dolorem eveniet quibusdam voluptas. Quibusdam, repellendus ducimus.</p>
+          <section id="where-would-you-use-it">
+            <h2 class="heading-with-copy">
+              Where would you use it
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('where-would-you-use-it', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
+            <p>You can use Markdown in many places!</p>
+            <p class="text-sm">Well, not literally everywhere, but more often than you might think.</p>
+            <p class="mt-1">For example, have you ever made text bold in Slack? That kind of simple formatting is similar to Markdown.</p>
+            <p>Basic Markdown lets you create simple elements like headings, lists, links, images, and bold or italic text. However, it does not let you do everything. For example, pure Markdown cannot change text color.</p>
+            <p class="mt-1">As mentioned in the <a href="#what-is-it">“What Is It?” section</a>, different platforms may interpret Markdown differently or add their own extra features. These versions are often called <a href="https://www.markdownguide.org/getting-started/#flavors-of-markdown" target="_blank" rel="noopener noreferrer">Markdown “flavors.”</a></p>
+            <p>That is why Markdown may look slightly different depending on where you use it.</p>
+
+            <div class="slack-sample-discription">
+              <p class="mt-15">Let's look at some common places where Markdown or Markdown-like syntax is used.</p>
+              <p>Here is a sample from Slack. Can you guess how many formatting features this post uses?</p>
+
+              <div id="slack-preview" class="slack-preview" aria-hidden="true"></div>
+              <figure>
+                <a href="#slack-zoomin" class="image-link">
+                  <img
+                    class="slack-sample-image"
+                    src="assets/images/slack-sample-566.png"
+                    srcset="
+                      assets/images/slack-sample-566.png 566w,
+                      assets/images/slack-sample-1132.png 1132w
+                    "
+                    sizes="(max-width: 600px) 100vw, 566px"
+                    alt="Slack message example showing @channel, a user mention, bold text, and an animated emoji"
+                    width="566"
+                    height="226"
+                  >
+                </a>
+                <figcaption>
+                  Slack uses Markdown-like formatting, such as bold text, along with its own features like mentions and emoji.
+                </figcaption>
+              </figure>
+
+              <div id="slack-zoomin" class="popup">
+                <a href="#slack-preview" class="popup-close" aria-label="Close enlarged image"></a>
+
+                <img
+                  src="assets/images/slack-sample-1132.png"
+                  alt="Slack message example showing @channel, a user mention, bold text, and an animated emoji"
+                >
+              </div>
+
+              <p>It uses four features. Let's check them out.</p>
+              <p>First, it uses <span class="quote-container">@channel</span>. This sends a notification to everyone in the channel, so it is useful when you need to share an important message with the whole group.</p>
+              <p>Next, it mentions <span class="quote-container">@Michael Chow (Instructor)</span>. This sends a notification to a specific person and makes it clear who the message is directed to.</p>
+              <p>The bold text, <span class="quote-container">gbads</span>, may already look familiar to you. Slack uses simple symbols to make text bold, similar to Markdown.</p>
+              <p>Lastly, it includes an animated icon or emoji using codes like <span class="quote-container">:gabs:</span>. This is not part of basic Markdown, but it shows how tools like Slack add their own extra features on top of simple text formatting.</p>
+            </div>
+
+            <div class="swaggerui-sample-discription">
+              <p class="mt-15">Here is another sample from Swagger UI.</p>
+              <p>Swagger UI is a tool that turns API specifications into interactive documentation. Developers can use it to explain API endpoints, request formats, and responses in a readable way.</p>
+              <p>You can also use Markdown syntax in API description files to make the documentation easier to read.</p>
+              <p class="mt-1">For example, the image below shows examples of <span class="quote-container">bold text</span> and <span class="quote-container">italic text</span> written with Markdown syntax.</p>
+
+              <div id="swaggerui-preview" class="swaggerui-preview" aria-hidden="true"></div>
+              <figure>
+                <a href="#swaggerui-zoomin" class="image-link">
+                  <picture>
+                    <source
+                      media="(min-width: 900px)"
+                      srcset="assets/images/swaggerui-sample-1444.png"
+                      width="1444"
+                      height="451"
+                    >
+                    <img
+                      class="swaggerui-sample-image"
+                      src="assets/images/swaggerui-sample-600.png"
+                      alt="Swagger UI screenshot showing an API documentation sample beside a YAML file with Markdown syntax"
+                      width="600"
+                      height="226"
+                    >
+                  </picture>
+                </a>
+
+                <figcaption>
+                  Swagger UI can display API descriptions written with Markdown-style formatting.
+                </figcaption>
+              </figure>
+
+              <div id="swaggerui-zoomin" class="popup">
+                <a
+                  href="#swaggerui-preview"
+                  class="popup-close"
+                  aria-label="Close enlarged image"
+                ></a>
+
+                <picture class="popup-image">
+                  <source
+                    media="(min-width: 900px)"
+                    srcset="assets/images/swaggerui-sample-1444.png"
+                    width="1444"
+                    height="451"
+                  >
+                  <img
+                    src="assets/images/swaggerui-sample-600.png"
+                    alt="Enlarged Swagger UI screenshot showing an API documentation sample beside a YAML file with Markdown syntax"
+                    width="600"
+                    height="226"
+                  >
+                </picture>
+              </div>
+
+              <p>I'll explain how to use them in more detail later in the <a href="#demo">“Demo” section</a>.</p>
+            </div>
           </section>
 
           <!-- Talia -->
           <section id="pros-and-cons">
-            <h2>Pros & Cons</h2>
+            <h2 class="heading-with-copy">
+              Pros & Cons
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('pros-and-cons', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <table>
               <thead>
                 <tr>
@@ -269,23 +465,48 @@
 
           <!-- Together -->
           <section id="demo">
-            <h2>Demo</h2>
+            <h2 class="heading-with-copy">
+              Demo
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('demo', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
             Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
             Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
             Architecto, temporibus! Id reiciendis commodi ea amet! Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque, maiores perferendis corporis eveniet quaerat laudantium! Aut mollitia sapiente, corrupti magnam quas dolor.
             Non nemo assumenda laboriosam autem pariatur modi rem! Sequi quasi eaque harum aliquam dicta asperiores nihil reprehenderit, blanditiis reiciendis fugit omnis exercitationem animi dolorem eveniet quibusdam voluptas. Quibusdam, repellendus ducimus.</p>
           </section>
+
+          <!-- Together -->
+          <section id="reference">
+            <h2 class="heading-with-copy">
+              Reference
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('reference', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
+            <ul>
+              <li>
+                Vudeo of how to use After Effects by <a href="https://www.youtube.com/@OctopusEffects">Octopus Effects</a> on <a href="https://www.youtube.com/watch?v=_J-sOi1iacg">YouTube</a>.
+              </li>
+            </ul>
+          </section>
         </main>
       </div>
 
       <footer>
-        <p>&copy 2025 FWD</p>
-      </footer>
-    </div>
-
-      <footer>
-        <p>&copy 2025 FWD</p>
+        <p>&copy; 2026. FWD</p>
       </footer>
     </div>
   </body>
