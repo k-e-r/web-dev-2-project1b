@@ -1,9 +1,10 @@
-
 /* Box Sizing Reset */
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -29,19 +30,23 @@ h3,
 h4,
 h5,
 h6 {
-	margin: .5em 0;
-	font-size: 1.75rem;
+  margin: 0.5em 0;
+  font-size: 1.75rem;
 }
 
 h2 {
-	font-size: 1.5rem;
-	font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 h3 {
-	font-size: 1.4rem;
-	font-weight: 700;
-	margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 @media (min-width: 50em) {
@@ -55,11 +60,10 @@ h3 {
 	}
 }
 
-
 /* Elements
 --------------------------------------------- */
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Links
@@ -69,8 +73,8 @@ a:visited,
 a:focus,
 a:active,
 a:focus {
-	color: #000;
-	text-decoration: none;
+  color: #000;
+  text-decoration: none;
   transition: all 0.3s ease;
 }
 
@@ -295,11 +299,6 @@ section {
   padding-bottom: 1rem;
 }
 
-#what-does-it-do p,
-#where-would-you-use-it p {
-  margin: 0;
-}
-
 #what-does-it-do .description-image {
   margin: 1.5rem 0 0;
 }
@@ -360,6 +359,23 @@ section {
 #where-would-you-use-it .swaggerui-preview {
   margin-top: -4.5rem;
   height: 4.5rem;
+}
+
+#pros-and-cons table {
+  display: table;
+  width: 75.5%;
+  overflow-x: auto;
+  margin: 1.5rem auto;
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+#pros-and-cons th,
+#pros-and-cons td {
+  font-size: 1.25rem;
+  border: 1px solid #000;
+  padding: 0.875rem;
+  text-align: left;
 }
 
 #where-would-you-use-it a {
