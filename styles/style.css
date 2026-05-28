@@ -16,12 +16,12 @@ img {
 
 body {
   margin: 0;
-	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #282828;
-	overflow-x: hidden;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #282828;
+  overflow-x: hidden;
 }
 
 h1,
@@ -50,14 +50,14 @@ p {
 }
 
 @media (min-width: 50em) {
-	h2 {
-		font-size: 2rem;
-		text-align: start;
-	}
+  h2 {
+    font-size: 2rem;
+    text-align: start;
+  }
 
-	h3 {
-		font-size: 2rem;
-	}
+  h3 {
+    font-size: 2rem;
+  }
 }
 
 /* Elements
@@ -86,9 +86,9 @@ a:hover {
 # Components
 --------------------------------------------------------------*/
 .site-wrapper {
-	/* This is for very large screens */
-	max-width: 80rem;
-	margin: 0 auto;
+  /* This is for very large screens */
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
 .heading-with-copy {
@@ -300,11 +300,13 @@ section {
 }
 
 #what-is-it table {
-  display: table;
   width: 50%;
-  overflow-x: auto;
   border-collapse: collapse;
-  border: 1px solid #000;
+}
+
+#what-is-it .example-table {
+  display: table;
+  overflow-x: auto;
   margin: 1.5rem auto 4rem;
 }
 
@@ -449,12 +451,12 @@ section {
 footer p {
   padding: 30px 20px 10px;
   text-align: center;
-	font-size: .5rem;
+  font-size: 0.5rem;
 }
 
 @media (min-width: 50em) {
-	footer p {
-    font-size: .8rem;
+  footer p {
+    font-size: 0.8rem;
     margin: 0;
-	}
+  }
 }
