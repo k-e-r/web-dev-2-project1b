@@ -29,7 +29,9 @@
               <li><a href="#what-is-it">What Is It?</a></li>
               <li><a href="#what-does-it-do">What Does It Do?</a></li>
               <li><a href="#why-would-you-use-it">Why Would You Use It?</a></li>
-              <li><a href="#where-would-you-use-it">Where Would You Use It?</a></li>
+              <li>
+                <a href="#where-would-you-use-it">Where Would You Use It?</a>
+              </li>
               <li><a href="#pros-and-cons">Pros & Cons</a></li>
               <li><a href="#demo">Demo</a></li>
               <li><a href="#reference">Reference</a></li>
@@ -46,16 +48,31 @@
                 <button
                   class="copy-heading-link"
                   onclick="copyHeadingLink('overview', this)"
-                  aria-label="Copy link to Technology Overview">
-                </button>
+                  aria-label="Copy link to Technology Overview"
+                ></button>
                 <span class="copy-toast" aria-live="polite">Copied!</span>
               </span>
             </h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
-            Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
-            Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
-            Architecto, temporibus! Id reiciendis commodi ea amet! Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque, maiores perferendis corporis eveniet quaerat laudantium! Aut mollitia sapiente, corrupti magnam quas dolor.
-            Non nemo assumenda laboriosam autem pariatur modi rem! Sequi quasi eaque harum aliquam dicta asperiores nihil reprehenderit, blanditiis reiciendis fugit omnis exercitationem animi dolorem eveniet quibusdam voluptas. Quibusdam, repellendus ducimus.</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae nostrum facilis sunt corporis dolorem alias, et modi
+              quas minima ut expedita dolor nobis eveniet officiis temporibus
+              similique officia dolore magni! Quia provident ea sequi iusto
+              suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam
+              vel aliquam ut temporibus facere blanditiis veniam pariatur optio
+              minus hic adipisci, neque cum debitis et quaerat consequuntur.
+              Consectetur libero adipisci mollitia in! Quos aliquid vitae minima
+              possimus, esse quia consequuntur libero nulla ea id beatae debitis
+              sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati
+              impedit! Architecto, temporibus! Id reiciendis commodi ea amet!
+              Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque,
+              maiores perferendis corporis eveniet quaerat laudantium! Aut
+              mollitia sapiente, corrupti magnam quas dolor. Non nemo assumenda
+              laboriosam autem pariatur modi rem! Sequi quasi eaque harum
+              aliquam dicta asperiores nihil reprehenderit, blanditiis
+              reiciendis fugit omnis exercitationem animi dolorem eveniet
+              quibusdam voluptas. Quibusdam, repellendus ducimus.
+            </p>
           </section>
 
           <!-- Talia -->
@@ -66,86 +83,100 @@
                 <button
                   class="copy-heading-link"
                   onclick="copyHeadingLink('what-is-it', this)"
-                  aria-label="Copy link to Technology Overview">
-                </button>
+                  aria-label="Copy link to Technology Overview"
+                ></button>
                 <span class="copy-toast" aria-live="polite">Copied!</span>
               </span>
             </h2>
             <div class="description-text">
-            <p>
-              <strong>Markdown</strong> is a lightweight markup language that
-              uses simple symbols like #, *, and - to format text. It was
-              created in 2004 by <i>John Gruber</i> and <i>Aaron Swartz</i> to
-              make writing for the web as easy as writing plain text.
-            </p>
-            <br />
-            <p>
-              The original specification was delibrately loose and informal.
-              This made it easy to learn, but it also meant different platforms
-              interpreted Markdown differently — leading to multiple "flavors"
-              (GitHub Flavored, Reddit, Stack Overflow, etc.).
-            </p>
+              <p>
+                <strong>Markdown</strong> is a lightweight markup language that
+                uses simple symbols like #, *, and - to format text. It was
+                created in 2004 by <i>John Gruber</i> and <i>Aaron Swartz</i> to
+                make writing for the web as easy as writing plain text.
+              </p>
+              <br />
+              <p>
+                The original specification was delibrately loose and informal.
+                This made it easy to learn, but it also meant different
+                platforms interpreted Markdown differently — leading to multiple
+                "flavors" (GitHub Flavored, Reddit, Stack Overflow, etc.).
+              </p>
             </div>
             <div class="example-table">
-            <table>
-              <thead>
-                <tr>
-                  <th>Element</th>
-                  <th>Syntax</th>
-                  <th>Result</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>#</td>
-                  <td># Heading 1</td>
-                  <td><h1>Heading 1</h1></td>
-                </tr>
-                <tr>
-                  <td>##</td>
-                  <td>## Heading 2</td>
-                  <td><h2>Heading 2</h2></td>
-                </tr>
-                <tr>
-                  <td>*</td>
-                  <td>*Italic*</td>
-                  <td><em>Italic</em></td>
-                </tr>
-                <tr>
-                  <td>**</td>
-                  <td>**Bold**</td>
-                  <td><strong>Bold</strong></td>
-                </tr>
-                <tr>
-                  <td>-</td>
-                  <td>- List item</td>
-                  <td>
-                    <ul>
-                      <li>List item</li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>[ title ](URL)</td>
-                  <td>[Markdown Guide](https://www.markdownguide.org/cheat-sheet/)</td>
-                  <td><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Guide</a></td>
-                </tr>
-                <tr>
-                  <td>![ alt text ](URL)</td>
-                  <td>![Markdown Logo](https://markdown-here.com/img/icon256.png)</td>
-                  <td><img src="https://markdown-here.com/img/icon256.png" alt="Markdown Logo" width="50"></td>
-                </tr>
-                <tr>
-                  <td>`</td>
-                  <td>
-                    `Inline code`
-                  </td>
-                  <td>
-                    <pre><code>Inline Code</code></pre>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Element</th>
+                    <th>Syntax</th>
+                    <th>Result</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#</td>
+                    <td># Heading 1</td>
+                    <td><h1>Heading 1</h1></td>
+                  </tr>
+                  <tr>
+                    <td>##</td>
+                    <td>## Heading 2</td>
+                    <td><h2>Heading 2</h2></td>
+                  </tr>
+                  <tr>
+                    <td>*</td>
+                    <td>*Italic*</td>
+                    <td><em>Italic</em></td>
+                  </tr>
+                  <tr>
+                    <td>**</td>
+                    <td>**Bold**</td>
+                    <td><strong>Bold</strong></td>
+                  </tr>
+                  <tr>
+                    <td>-</td>
+                    <td>- List item</td>
+                    <td>
+                      <ul>
+                        <li>List item</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>[ title ](URL)</td>
+                    <td>
+                      [Markdown
+                      Guide](https://www.markdownguide.org/cheat-sheet/)
+                    </td>
+                    <td>
+                      <a href="https://www.markdownguide.org/cheat-sheet/"
+                        >Markdown Guide</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>![ alt text ](URL)</td>
+                    <td>
+                      ![Markdown
+                      Logo](https://markdown-here.com/img/icon256.png)
+                    </td>
+                    <td>
+                      <img
+                        src="https://markdown-here.com/img/icon256.png"
+                        alt="Markdown Logo"
+                        width="50"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>`</td>
+                    <td>`Inline code`</td>
+                    <td>
+                      <pre><code>Inline Code</code></pre>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </section>
 
@@ -157,8 +188,8 @@
                 <button
                   class="copy-heading-link"
                   onclick="copyHeadingLink('what-does-it-do', this)"
-                  aria-label="Copy link to Technology Overview">
-                </button>
+                  aria-label="Copy link to Technology Overview"
+                ></button>
                 <span class="copy-toast" aria-live="polite">Copied!</span>
               </span>
             </h2>
@@ -281,16 +312,31 @@
                 <button
                   class="copy-heading-link"
                   onclick="copyHeadingLink('why-would-you-use-it', this)"
-                  aria-label="Copy link to Technology Overview">
-                </button>
+                  aria-label="Copy link to Technology Overview"
+                ></button>
                 <span class="copy-toast" aria-live="polite">Copied!</span>
               </span>
             </h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
-            Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
-            Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
-            Architecto, temporibus! Id reiciendis commodi ea amet! Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque, maiores perferendis corporis eveniet quaerat laudantium! Aut mollitia sapiente, corrupti magnam quas dolor.
-            Non nemo assumenda laboriosam autem pariatur modi rem! Sequi quasi eaque harum aliquam dicta asperiores nihil reprehenderit, blanditiis reiciendis fugit omnis exercitationem animi dolorem eveniet quibusdam voluptas. Quibusdam, repellendus ducimus.</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae nostrum facilis sunt corporis dolorem alias, et modi
+              quas minima ut expedita dolor nobis eveniet officiis temporibus
+              similique officia dolore magni! Quia provident ea sequi iusto
+              suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam
+              vel aliquam ut temporibus facere blanditiis veniam pariatur optio
+              minus hic adipisci, neque cum debitis et quaerat consequuntur.
+              Consectetur libero adipisci mollitia in! Quos aliquid vitae minima
+              possimus, esse quia consequuntur libero nulla ea id beatae debitis
+              sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati
+              impedit! Architecto, temporibus! Id reiciendis commodi ea amet!
+              Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque,
+              maiores perferendis corporis eveniet quaerat laudantium! Aut
+              mollitia sapiente, corrupti magnam quas dolor. Non nemo assumenda
+              laboriosam autem pariatur modi rem! Sequi quasi eaque harum
+              aliquam dicta asperiores nihil reprehenderit, blanditiis
+              reiciendis fugit omnis exercitationem animi dolorem eveniet
+              quibusdam voluptas. Quibusdam, repellendus ducimus.
+            </p>
           </section>
 
           <!-- Kaori -->
@@ -301,66 +347,141 @@
                 <button
                   class="copy-heading-link"
                   onclick="copyHeadingLink('where-would-you-use-it', this)"
-                  aria-label="Copy link to Technology Overview">
-                </button>
+                  aria-label="Copy link to Technology Overview"
+                ></button>
                 <span class="copy-toast" aria-live="polite">Copied!</span>
               </span>
             </h2>
             <p>You can use Markdown in many places!</p>
-            <p class="text-sm">Well, not literally everywhere, but more often than you might think.</p>
-            <p class="mt-1">For example, have you ever made text bold in Slack? That kind of simple formatting is similar to Markdown.</p>
-            <p>Basic Markdown lets you create simple elements like headings, lists, links, images, and bold or italic text. However, it does not let you do everything. For example, pure Markdown cannot change text color.</p>
-            <p class="mt-1">As mentioned in the <a href="#what-is-it">“What Is It?” section</a>, different platforms may interpret Markdown differently or add their own extra features. These versions are often called <a href="https://www.markdownguide.org/getting-started/#flavors-of-markdown" target="_blank" rel="noopener noreferrer">Markdown “flavors.”</a></p>
-            <p>That is why Markdown may look slightly different depending on where you use it.</p>
+            <p class="text-sm">
+              Well, not literally everywhere, but more often than you might
+              think.
+            </p>
+            <p class="mt-1">
+              For example, have you ever made text bold in Slack? That kind of
+              simple formatting is similar to Markdown.
+            </p>
+            <p>
+              Basic Markdown lets you create simple elements like headings,
+              lists, links, images, and bold or italic text. However, it does
+              not let you do everything. For example, pure Markdown cannot
+              change text color.
+            </p>
+            <p class="mt-1">
+              As mentioned in the
+              <a href="#what-is-it">“What Is It?” section</a>, different
+              platforms may interpret Markdown differently or add their own
+              extra features. These versions are often called
+              <a
+                href="https://www.markdownguide.org/getting-started/#flavors-of-markdown"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Markdown “flavors.”</a
+              >
+            </p>
+            <p>
+              That is why Markdown may look slightly different depending on
+              where you use it.
+            </p>
 
             <div class="slack-sample-discription">
-              <p class="mt-15">Let's look at some common places where Markdown or Markdown-like syntax is used.</p>
-              <p>Here is a sample from Slack. Can you guess how many formatting features this post uses?</p>
+              <p class="mt-15">
+                Let's look at some common places where Markdown or Markdown-like
+                syntax is used.
+              </p>
+              <p>
+                Here is a sample from Slack. Can you guess how many formatting
+                features this post uses?
+              </p>
 
-              <div id="slack-preview" class="slack-preview" aria-hidden="true"></div>
+              <div
+                id="slack-preview"
+                class="slack-preview"
+                aria-hidden="true"
+              ></div>
               <figure>
                 <a href="#slack-zoomin" class="image-link">
                   <img
                     class="slack-sample-image"
                     src="assets/images/slack-sample-566.png"
                     srcset="
-                      assets/images/slack-sample-566.png 566w,
+                      assets/images/slack-sample-566.png   566w,
                       assets/images/slack-sample-1132.png 1132w
                     "
                     sizes="(max-width: 600px) 100vw, 566px"
                     alt="Slack message example showing @channel, a user mention, bold text, and an animated emoji"
                     width="566"
                     height="226"
-                  >
+                  />
                 </a>
                 <figcaption>
-                  Slack uses Markdown-like formatting, such as bold text, along with its own features like mentions and emoji.
+                  Slack uses Markdown-like formatting, such as bold text, along
+                  with its own features like mentions and emoji.
                 </figcaption>
               </figure>
 
               <div id="slack-zoomin" class="popup">
-                <a href="#slack-preview" class="popup-close" aria-label="Close enlarged image"></a>
+                <a
+                  href="#slack-preview"
+                  class="popup-close"
+                  aria-label="Close enlarged image"
+                ></a>
 
                 <img
                   src="assets/images/slack-sample-1132.png"
                   alt="Slack message example showing @channel, a user mention, bold text, and an animated emoji"
-                >
+                />
               </div>
 
               <p>It uses four features. Let's check them out.</p>
-              <p>First, it uses <span class="quote-container">@channel</span>. This sends a notification to everyone in the channel, so it is useful when you need to share an important message with the whole group.</p>
-              <p>Next, it mentions <span class="quote-container">@Michael Chow (Instructor)</span>. This sends a notification to a specific person and makes it clear who the message is directed to.</p>
-              <p>The bold text, <span class="quote-container">gbads</span>, may already look familiar to you. Slack uses simple symbols to make text bold, similar to Markdown.</p>
-              <p>Lastly, it includes an animated icon or emoji using codes like <span class="quote-container">:gabs:</span>. This is not part of basic Markdown, but it shows how tools like Slack add their own extra features on top of simple text formatting.</p>
+              <p>
+                First, it uses <span class="quote-container">@channel</span>.
+                This sends a notification to everyone in the channel, so it is
+                useful when you need to share an important message with the
+                whole group.
+              </p>
+              <p>
+                Next, it mentions
+                <span class="quote-container">@Michael Chow (Instructor)</span>.
+                This sends a notification to a specific person and makes it
+                clear who the message is directed to.
+              </p>
+              <p>
+                The bold text, <span class="quote-container">gbads</span>, may
+                already look familiar to you. Slack uses simple symbols to make
+                text bold, similar to Markdown.
+              </p>
+              <p>
+                Lastly, it includes an animated icon or emoji using codes like
+                <span class="quote-container">:gabs:</span>. This is not part of
+                basic Markdown, but it shows how tools like Slack add their own
+                extra features on top of simple text formatting.
+              </p>
             </div>
 
             <div class="swaggerui-sample-discription">
               <p class="mt-15">Here is another sample from Swagger UI.</p>
-              <p>Swagger UI is a tool that turns API specifications into interactive documentation. Developers can use it to explain API endpoints, request formats, and responses in a readable way.</p>
-              <p>You can also use Markdown syntax in API description files to make the documentation easier to read.</p>
-              <p class="mt-1">For example, the image below shows examples of <span class="quote-container">bold text</span> and <span class="quote-container">italic text</span> written with Markdown syntax.</p>
+              <p>
+                Swagger UI is a tool that turns API specifications into
+                interactive documentation. Developers can use it to explain API
+                endpoints, request formats, and responses in a readable way.
+              </p>
+              <p>
+                You can also use Markdown syntax in API description files to
+                make the documentation easier to read.
+              </p>
+              <p class="mt-1">
+                For example, the image below shows examples of
+                <span class="quote-container">bold text</span> and
+                <span class="quote-container">italic text</span> written with
+                Markdown syntax.
+              </p>
 
-              <div id="swaggerui-preview" class="swaggerui-preview" aria-hidden="true"></div>
+              <div
+                id="swaggerui-preview"
+                class="swaggerui-preview"
+                aria-hidden="true"
+              ></div>
               <figure>
                 <a href="#swaggerui-zoomin" class="image-link">
                   <picture>
@@ -369,19 +490,20 @@
                       srcset="assets/images/swaggerui-sample-1444.png"
                       width="1444"
                       height="451"
-                    >
+                    />
                     <img
                       class="swaggerui-sample-image"
                       src="assets/images/swaggerui-sample-600.png"
                       alt="Swagger UI screenshot showing an API documentation sample beside a YAML file with Markdown syntax"
                       width="600"
                       height="226"
-                    >
+                    />
                   </picture>
                 </a>
 
                 <figcaption>
-                  Swagger UI can display API descriptions written with Markdown-style formatting.
+                  Swagger UI can display API descriptions written with
+                  Markdown-style formatting.
                 </figcaption>
               </figure>
 
@@ -398,17 +520,20 @@
                     srcset="assets/images/swaggerui-sample-1444.png"
                     width="1444"
                     height="451"
-                  >
+                  />
                   <img
                     src="assets/images/swaggerui-sample-600.png"
                     alt="Enlarged Swagger UI screenshot showing an API documentation sample beside a YAML file with Markdown syntax"
                     width="600"
                     height="226"
-                  >
+                  />
                 </picture>
               </div>
 
-              <p>I'll explain how to use them in more detail later in the <a href="#demo">“Demo” section</a>.</p>
+              <p>
+                I'll explain how to use them in more detail later in the
+                <a href="#demo">“Demo” section</a>.
+              </p>
             </div>
           </section>
 
@@ -420,8 +545,8 @@
                 <button
                   class="copy-heading-link"
                   onclick="copyHeadingLink('pros-and-cons', this)"
-                  aria-label="Copy link to Technology Overview">
-                </button>
+                  aria-label="Copy link to Technology Overview"
+                ></button>
                 <span class="copy-toast" aria-live="polite">Copied!</span>
               </span>
             </h2>
@@ -471,16 +596,31 @@
                 <button
                   class="copy-heading-link"
                   onclick="copyHeadingLink('demo', this)"
-                  aria-label="Copy link to Technology Overview">
-                </button>
+                  aria-label="Copy link to Technology Overview"
+                ></button>
                 <span class="copy-toast" aria-live="polite">Copied!</span>
               </span>
             </h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
-            Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
-            Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
-            Architecto, temporibus! Id reiciendis commodi ea amet! Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque, maiores perferendis corporis eveniet quaerat laudantium! Aut mollitia sapiente, corrupti magnam quas dolor.
-            Non nemo assumenda laboriosam autem pariatur modi rem! Sequi quasi eaque harum aliquam dicta asperiores nihil reprehenderit, blanditiis reiciendis fugit omnis exercitationem animi dolorem eveniet quibusdam voluptas. Quibusdam, repellendus ducimus.</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae nostrum facilis sunt corporis dolorem alias, et modi
+              quas minima ut expedita dolor nobis eveniet officiis temporibus
+              similique officia dolore magni! Quia provident ea sequi iusto
+              suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam
+              vel aliquam ut temporibus facere blanditiis veniam pariatur optio
+              minus hic adipisci, neque cum debitis et quaerat consequuntur.
+              Consectetur libero adipisci mollitia in! Quos aliquid vitae minima
+              possimus, esse quia consequuntur libero nulla ea id beatae debitis
+              sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati
+              impedit! Architecto, temporibus! Id reiciendis commodi ea amet!
+              Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque,
+              maiores perferendis corporis eveniet quaerat laudantium! Aut
+              mollitia sapiente, corrupti magnam quas dolor. Non nemo assumenda
+              laboriosam autem pariatur modi rem! Sequi quasi eaque harum
+              aliquam dicta asperiores nihil reprehenderit, blanditiis
+              reiciendis fugit omnis exercitationem animi dolorem eveniet
+              quibusdam voluptas. Quibusdam, repellendus ducimus.
+            </p>
           </section>
 
           <!-- Together -->
@@ -491,14 +631,30 @@
                 <button
                   class="copy-heading-link"
                   onclick="copyHeadingLink('reference', this)"
-                  aria-label="Copy link to Technology Overview">
-                </button>
+                  aria-label="Copy link to Technology Overview"
+                ></button>
                 <span class="copy-toast" aria-live="polite">Copied!</span>
               </span>
             </h2>
             <ul>
               <li>
-                Vudeo of how to use After Effects by <a href="https://www.youtube.com/@OctopusEffects">Octopus Effects</a> on <a href="https://www.youtube.com/watch?v=_J-sOi1iacg">YouTube</a>.
+                Video of how to use After Effects by
+                <a href="https://www.youtube.com/@OctopusEffects"
+                  >Octopus Effects</a
+                >
+                on
+                <a href="https://www.youtube.com/watch?v=_J-sOi1iacg">YouTube</a
+                >.
+              </li>
+              <li>
+                <a
+                  href="https://www.markdownguide.org/getting-started/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >The Markdown Guide</a
+                >
+                - A comprehensive resource for learning Markdown syntax and best
+                practices.
               </li>
             </ul>
           </section>
