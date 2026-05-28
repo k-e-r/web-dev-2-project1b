@@ -299,6 +299,13 @@ section {
   padding-bottom: 1rem;
 }
 
+#what-is-it code {
+  background-color: #cfcfcf;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
 #what-is-it table {
   width: 50%;
   border-collapse: collapse;
