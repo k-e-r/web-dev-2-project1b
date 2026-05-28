@@ -299,6 +299,45 @@ section {
   padding-bottom: 1rem;
 }
 
+#what-is-it table {
+  display: table;
+  width: 50%;
+  overflow-x: auto;
+  white-space: nowrap;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  margin: 1.5rem auto 4rem;
+}
+
+#what-is-it th,
+#what-is-it td {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+#what-is-it td h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#what-is-it td h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#what-is-it td {
+  text-align: center;
+}
+
+#what-is-it a {
+  color: #000;
+  text-decoration: underline;
+}
+
+#what-is-it a:hover {
+  color: #00000070;
+}
+
 #what-does-it-do .description-image {
   margin: 1.5rem 0 0;
 }
@@ -336,7 +375,7 @@ section {
   display: grid;
   place-items: center;
   padding: 2rem;
-  background: rgba(0, 0, 0, 0.8);
+  background: #000000cc;
 }
 
 #what-does-it-do .popup img,
