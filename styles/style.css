@@ -87,6 +87,12 @@ a:hover {
 	margin: 0 auto;
 }
 
+.heading-with-copy {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .copy-heading-link {
   border: none;
   background: none;
