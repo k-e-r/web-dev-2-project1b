@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <script src="scripts/menu-animation.js" defer></script>
+    <script src="scripts/copy-heading-link.js" defer></script>
   </head>
   <body>
     <div class="site-wrapper">
@@ -38,7 +39,17 @@
         <main id="main">
           <!-- Scott -->
           <section id="overview">
-            <h2>Technology Overview</h2>
+            <h2 class="heading-with-copy">
+              Technology Overview
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('overview', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
             Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
             Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
@@ -48,7 +59,17 @@
 
           <!-- Talia -->
           <section id="what-is-it">
-            <h2>What is it</h2>
+            <h2 class="heading-with-copy">
+              What is it
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('what-is-it', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <p>
               <strong>Markdown</strong> is a lightweight markup language that
               uses simple symbols like #, *, and - to format text. It was
@@ -124,7 +145,17 @@
 
           <!-- Kaori -->
           <section id="what-does-it-do">
-            <h2>What does it do</h2>
+            <h2 class="heading-with-copy">
+              What does it do
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('what-does-it-do', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <div class="description-text">
               <p>Markdown lets you format plain text using simple symbols.</p>
               <p>With Markdown, you can create headings, lists, links, images, bold or italic text, code blocks, and tables without writing complex HTML.</p>
@@ -203,7 +234,17 @@
 
           <!-- Scott -->
           <section id="why-would-you-use-it">
-            <h2>Why would you use it</h2>
+            <h2 class="heading-with-copy">
+              Why would you use it
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('why-would-you-use-it', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
             Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
             Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
@@ -213,7 +254,17 @@
 
           <!-- Kaori -->
           <section id="where-would-you-use-it">
-            <h2>Where would you use it</h2>
+            <h2 class="heading-with-copy">
+              Where would you use it
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('where-would-you-use-it', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <p>You can use Markdown in many places!</p>
             <p class="text-sm">Well, not literally everywhere, but more often than you might think.</p>
             <p class="mt-1">For example, have you ever made text bold in Slack? That kind of simple formatting is similar to Markdown.</p>
@@ -322,7 +373,17 @@
 
           <!-- Talia -->
           <section id="pros-and-cons">
-            <h2>Pros & Cons</h2>
+            <h2 class="heading-with-copy">
+              Pros & Cons
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('pros-and-cons', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <table>
               <thead>
                 <tr>
@@ -363,7 +424,17 @@
 
           <!-- Together -->
           <section id="demo">
-            <h2>Demo</h2>
+            <h2 class="heading-with-copy">
+              Demo
+              <span class="copy-ui">
+                <button
+                  class="copy-heading-link"
+                  onclick="copyHeadingLink('demo', this)"
+                  aria-label="Copy link to Technology Overview">
+                </button>
+                <span class="copy-toast" aria-live="polite">Copied!</span>
+              </span>
+            </h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nostrum facilis sunt corporis dolorem alias, et modi quas minima ut expedita dolor nobis eveniet officiis temporibus similique officia dolore magni!
             Quia provident ea sequi iusto suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam vel aliquam ut temporibus facere blanditiis veniam pariatur optio minus hic adipisci, neque cum debitis et quaerat consequuntur.
             Consectetur libero adipisci mollitia in! Quos aliquid vitae minima possimus, esse quia consequuntur libero nulla ea id beatae debitis sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati impedit!
