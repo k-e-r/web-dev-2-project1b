@@ -90,6 +90,7 @@ a:hover {
   /* This is for very large screens */
   margin: 0 auto;
   max-width: 80rem;
+  width: 100%;
 }
 
 .heading-with-copy {
@@ -149,18 +150,19 @@ a:hover {
 /* Header
 --------------------------------------------- */
 header {
+  background-color: #fffbf7;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.header-inner {
   height: 68px;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fffbf7;
-  position: relative;
-
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .btn-menu {
