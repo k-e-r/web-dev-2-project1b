@@ -252,6 +252,7 @@ header {
   padding: 16px 20px;
   text-decoration: none;
   color: #282828;
+  cursor: pointer;
 }
 
 .side-nav a.active {
@@ -314,6 +315,7 @@ section {
 }
 
 #what-is-it code,
+#how-do-you-use-it code,
 #where-would-you-use-it code {
   background-color: #cfcfcf;
   padding: 0.2rem 0.4rem;
@@ -366,12 +368,14 @@ section {
 }
 
 #what-does-it-do figcaption,
+#how-do-you-use-it figcaption,
 #where-would-you-use-it figcaption {
   text-align: center;
   font-size: 0.9rem;
 }
 
 #what-does-it-do .image-link,
+#how-do-you-use-it .image-link,
 #where-would-you-use-it .image-link {
   cursor: zoom-in;
   display: block;
@@ -379,6 +383,7 @@ section {
 }
 
 #what-does-it-do .image-link img,
+#how-do-you-use-it .image-link img,
 #where-would-you-use-it .image-link img {
   max-width: 800px;
   margin: auto;
@@ -386,11 +391,13 @@ section {
 }
 
 #what-does-it-do .popup,
+#how-do-you-use-it .popup,
 #where-would-you-use-it .popup {
   display: none;
 }
 
 #what-does-it-do .popup:target,
+#how-do-you-use-it .popup:target,
 #where-would-you-use-it .popup:target {
   position: fixed;
   inset: 0;
@@ -402,6 +409,7 @@ section {
 }
 
 #what-does-it-do .popup img,
+#how-do-you-use-it .popup img,
 #where-would-you-use-it .popup img {
   max-width: 90vw;
   max-height: 90vh;
@@ -409,6 +417,7 @@ section {
 }
 
 #what-does-it-do .popup-close,
+#how-do-you-use-it .popup-close,
 #where-would-you-use-it .popup-close {
   position: absolute;
   inset: 0;
@@ -417,10 +426,38 @@ section {
 
 #what-does-it-do .markdown-preview,
 #what-does-it-do .html-preview,
+#how-do-you-use-it .new-file-preview,
+#how-do-you-use-it .name-file-preview,
+#how-do-you-use-it .write-plain-text-preview,
+#how-do-you-use-it .add-markdown-syntax-preview,
+#how-do-you-use-it .open-preview-preview,
+#how-do-you-use-it .compare-preview,
 #where-would-you-use-it .slack-preview,
 #where-would-you-use-it .swaggerui-preview {
   margin-top: -4.5rem;
   height: 4.5rem;
+}
+
+#how-do-you-use-it .step-list li {
+  margin-bottom: 2rem;
+}
+
+#how-do-you-use-it .step-image-placeholder {
+  margin: 1rem 0 0;
+}
+
+#how-do-you-use-it .image-placeholder {
+  min-height: 180px;
+  border: 1px dashed #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+#how-do-you-use-it .step-image-placeholder figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
 }
 
 #pros-and-cons table {
