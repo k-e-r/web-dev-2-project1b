@@ -254,6 +254,10 @@ header {
   color: #282828;
 }
 
+.side-nav a.active {
+  background-color: #fff3e7;
+}
+
 #main {
   padding: 30px 20px;
   transition: transform 0.3s ease;
@@ -276,6 +280,10 @@ header {
     align-items: start;
   }
 
+  .side-nav li {
+    border: none;
+  }
+
   .side-nav {
     width: auto;
     height: auto;
@@ -289,8 +297,7 @@ header {
   .side-nav a {
     color: #000;
     border-top: none;
-    padding: 10px 16px;
-    border-radius: 6px;
+    padding: 8px 16px;
   }
 
   #main,
@@ -519,5 +526,11 @@ footer p {
   footer p {
     font-size: 0.8rem;
     margin: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
