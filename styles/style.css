@@ -32,6 +32,7 @@ h5,
 h6 {
   margin: 0.5em 0;
   font-size: 1.75rem;
+  color: #282828;
 }
 
 h2 {
@@ -85,10 +86,10 @@ a:hover {
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
-.site-wrapper {
+.wrapper {
   /* This is for very large screens */
-  max-width: 80rem;
   margin: 0 auto;
+  max-width: 80rem;
 }
 
 .heading-with-copy {
@@ -211,6 +212,7 @@ header {
   top: 0;
   transform: rotate(-45deg);
 }
+
 .layout {
   position: relative;
 }
@@ -237,15 +239,19 @@ header {
   list-style: none;
 }
 
+.side-nav li {
+  border-top: 1px solid #777;
+}
+
+.side-nav li:first-child {
+  border: none;
+}
+
 .side-nav a {
   display: block;
   padding: 16px 20px;
   text-decoration: none;
-  border-top: 1px solid #777;
-}
-
-.side-nav li:first-child a {
-  border: none;
+  color: #282828;
 }
 
 #main {
@@ -309,6 +315,7 @@ section {
 }
 
 #what-is-it table {
+  margin: auto;
   width: 50%;
   border-collapse: collapse;
 }
