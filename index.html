@@ -436,25 +436,25 @@
 
               <p>It uses four features. Let's check them out.</p>
               <p>
-                First, it uses <span class="quote-container">@channel</span>.
+                First, it uses <code>@channel</code>.
                 This sends a notification to everyone in the channel, so it is
                 useful when you need to share an important message with the
                 whole group.
               </p>
               <p>
                 Next, it mentions
-                <span class="quote-container">@Michael Chow (Instructor)</span>.
+                <code>@Michael Chow (Instructor)</code>.
                 This sends a notification to a specific person and makes it
                 clear who the message is directed to.
               </p>
               <p>
-                The bold text, <span class="quote-container">gbads</span>, may
+                The bold text, <code>gbads</code>, may
                 already look familiar to you. Slack uses simple symbols to make
                 text bold, similar to Markdown.
               </p>
               <p>
                 Lastly, it includes an animated icon or emoji using codes like
-                <span class="quote-container">:gabs:</span>. This is not part of
+                <code>:gabs:</code>. This is not part of
                 basic Markdown, but it shows how tools like Slack add their own
                 extra features on top of simple text formatting.
               </p>
@@ -473,8 +473,8 @@
               </p>
               <p class="mt-1">
                 For example, the image below shows examples of
-                <span class="quote-container">bold text</span> and
-                <span class="quote-container">italic text</span> written with
+                <code>bold text</code> and
+                <code>italic text</code> written with
                 Markdown syntax.
               </p>
 
@@ -602,183 +602,273 @@
                 <span class="copy-toast" aria-live="polite">Copied!</span>
               </span>
             </h2>
-            <div>
-              <details>
-                <summary>
-                  <strong>Question: </strong>Which of the following correctly
-                  creates bold text? <br />
-                  A) <code>[bold text]</code> <br />
-                  B) <code>//bold text//</code> <br />
-                  C) <code>**bold text**</code> <br />
-                  D) <code>&lt;b&gt;bold text&lt;/b&gt;</code> <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
 
-                <pre><code>**bold text**</code></pre>
-                <p><strong>Result: </strong><strong>C</strong></p>
+            <p class="section-intro">
+              Use the
+              <a href="https://markdownlivepreview.com/" target="_blank" rel="noopener noreferrer">
+                preview website
+              </a>
+              to help you answer the questions below.
+            </p>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> Which of the following correctly creates bold text?
+              </p>
+
+              <ol type="A">
+                <li><code>[bold text]</code></li>
+                <li><code>//bold text//</code></li>
+                <li><code>**bold text**</code></li>
+                <li><code>&lt;b&gt;bold text&lt;/b&gt;</code></li>
+              </ol>
+
+              <details>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> C. <code>**bold text**</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <p><strong>bold text</strong></p>
+                  </div>
+                </div>
               </details>
             </div>
-            <div>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> Which of the following correctly creates italic text?
+              </p>
+
+              <ol type="A">
+                <li><code>[italic text]</code></li>
+                <li><code>//italic text//</code></li>
+                <li><code>*italic text*</code></li>
+                <li><code>&lt;i&gt;italic text&lt;/i&gt;</code></li>
+              </ol>
+
               <details>
-                <summary>
-                  <strong>Questions: </strong>Which of the following correctly
-                  creates italic text? <br />
-                  A) <code>[italic text]</code> <br />
-                  B) <code>//italic text//</code> <br />
-                  C) <code>*italic text*</code> <br />
-                  D) <code>&lt;i&gt;italic text&lt;/i&gt;</code> <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
-                <pre><code>*italic text*</code></pre>
-                <p><strong>Result: </strong><strong>C</strong></p>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> C. <code>*italic text*</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <p><i>italic text</i></p>
+                  </div>
+                </div>
               </details>
             </div>
-            <div>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> Which heading size is the largest (most prominent)?
+              </p>
+
+              <ol type="A">
+                <li><code># Heading</code></li>
+                <li><code>### Heading</code></li>
+                <li><code>###### Heading</code></li>
+                <li><code>Heading (no symbols)</code></li>
+              </ol>
+
               <details>
-                <summary>
-                  <strong>Questions: </strong>Which heading size is the largest
-                  (most prominent)? <br />
-                  A) <code># Heading </code> <br />
-                  B) <code>### Heading </code> <br />
-                  C) <code>###### Heading </code> <br />
-                  D) <code>Heading (no symbols)</code> <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
-                <pre><code># Heading</code></pre>
-                <p><strong>Result: </strong><strong>A</strong></p>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> A. <code># Heading</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <h1>Heading</h1>
+                  </div>
+                </div>
               </details>
             </div>
-            <div>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> You want a level 4 heading that says "Brownies." Which is correct?
+              </p>
+
+              <ol type="A">
+                <li><code># Brownies</code></li>
+                <li><code>#### Brownies</code></li>
+                <li><code>Brownies ####</code></li>
+                <li><code>=== Brownies</code></li>
+              </ol>
+
               <details>
-                <summary>
-                  <strong>Questions: </strong>You want a level 4 heading that
-                  says "Brownies." Which is correct? <br />
-                  A) <code># Brownies</code> <br />
-                  B) <code>#### Brownies</code> <br />
-                  C) <code>Brownies ####</code> <br />
-                  D) <code>=== Brownies</code> <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
-                <pre><code>#### Brownies</code></pre>
-                <p><strong>Result: </strong><strong>B</strong></p>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> B. <code>#### Brownies</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <h4>Brownies</h4>
+                  </div>
+                </div>
               </details>
             </div>
-            <div>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> Which is the correct syntax for a link?
+              </p>
+
+              <ol type="A">
+                <li><code>[text](URL)</code></li>
+                <li><code>(URL)text</code></li>
+                <li><code>[text]URL</code></li>
+                <li><code>&lt;text URL&gt;</code></li>
+              </ol>
+
               <details>
-                <summary>
-                  <strong>Questions: </strong>Which is the correct syntax for a
-                  link? <br />
-                  A) <code>[text](URL)</code> <br />
-                  B) <code>(URL)text</code> <br />
-                  C) <code>[text]URL</code> <br />
-                  D) <code>&lt;text URL&gt;</code> <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
-                <pre><code>[text](URL)</code></pre>
-                <p><strong>Result: </strong><strong>A</strong></p>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> A. <code>[text](URL)</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <a href="URL" onclick="event.preventDefault();">text</a>
+                  </div>
+                </div>
               </details>
             </div>
-            <div>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> You want a link that says "Click here" and goes to https://brownie.com. which is correct?
+              </p>
+
+              <ol type="A">
+                <li><code>(Click here)[https://brownie.com]</code></li>
+                <li><code>[Click here](https://brownie.com)</code></li>
+                <li><code>[Click here]https://brownie.comL</code></li>
+                <li><code>&lt;Click here&gt;https://brownie.com&lt;/Click here&gt;</code></li>
+              </ol>
+
               <details>
-                <summary>
-                  <strong>Questions: </strong>You want a link that says "Click
-                  here" and goes to https://brownie.com. which is correct?
-                  <br />
-                  A) <code>(Click here)[https://brownie.com]</code> <br />
-                  B) <code>[Click here](https://brownie.com)</code> <br />
-                  C) <code>[Click here]https://brownie.com</code> <br />
-                  D)
-                  <code
-                    >&lt;Click here&gt;https://brownie.com&lt;/Click
-                    here&gt;</code
-                  >
-                  <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
-                <pre><code>[Click here](https://brownie.com)</code></pre>
-                <p>
-                  <strong>Result: A</strong>
-                </p>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> A. <code>[Click here](https://brownie.com)</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <a href="https://brownie.com" onclick="event.preventDefault();">Click here</a>
+                  </div>
+                </div>
               </details>
             </div>
-            <div>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> Which creates an unordered list?
+              </p>
+
+              <ol type="A">
+                <li><code>1. item</code></li>
+                <li><code>- item</code></li>
+                <li><code>*item*</code></li>
+                <li><code># item</code></li>
+              </ol>
+
               <details>
-                <summary>
-                  <strong>Questions: </strong>Which creates an unordered list?
-                  <br />
-                  A) <code>1. item</code> <br />
-                  B) <code>- item</code> <br />
-                  C) <code>*item*</code> <br />
-                  D) <code># item</code> <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
-                <pre><code>- item</code></pre>
-                <p><strong>Result: </strong><strong>B</strong></p>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> B. <code>- item</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <ul>
+                      <li>item</li>
+                    </ul>
+                  </div>
+                </div>
               </details>
             </div>
-            <div>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> Which creates an ordered list?
+              </p>
+
+              <ol type="A">
+                <li><code>- item</code></li>
+                <li><code>+ item</code></li>
+                <li><code>1. item</code></li>
+                <li><code>* item</code></li>
+              </ol>
+
               <details>
-                <summary>
-                  <strong>Questions: </strong>Which creates an ordered list?
-                  <br />
-                  A) <code>- item</code> <br />
-                  B) <code>+ item</code> <br />
-                  C) <code>1. item</code> <br />
-                  D) <code>* item</code> <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
-                <pre><code>1. item</code></pre>
-                <p><strong>Result: </strong><strong>C</strong></p>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> C. <code>1. item</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <ol>
+                      <li>item</li>
+                    </ol>
+                  </div>
+                </div>
               </details>
             </div>
-            <div>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> Which is the correct syntax for an image?
+              </p>
+
+              <ol type="A">
+                <li><code>![alt text](URL)</code></li>
+                <li><code>[alt text](URL)</code></li>
+                <li><code>&lt;img src="URL" alt="alt text" /&gt;</code></li>
+                <li><code>&lt;alt text&gt;URL&lt;/alt text&gt;</code></li>
+              </ol>
+
               <details>
-                <summary>
-                  <strong>Questions: </strong>Which is the correct syntax for an
-                  image? <br />
-                  A) <code>![alt text](URL)</code> <br />
-                  B) <code>[alt text](URL)</code> <br />
-                  C) <code>&lt;img src="URL" alt="alt text" /&gt;</code> <br />
-                  D) <code>&lt;alt text&gt;URL&lt;/alt text&gt;</code> <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
-                <pre><code>![alt text](URL)</code></pre>
-                <p><strong>Result: </strong><strong>A</strong></p>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> A. <code>![alt text](URL)</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <img
+                      src="assets/images/placeholder-image-100x90.svg"
+                      alt="alt text"
+                      width="100"
+                      height="90"
+                    >
+                  </div>
+                </div>
               </details>
             </div>
-            <div>
+
+            <div class="quiz-question">
+              <p>
+                <strong>Question:</strong> You want to create a blockquote. Which symbol do you use at the start of the line?
+              </p>
+
+              <ol type="A">
+                <li><code>#</code></li>
+                <li><code>-</code></li>
+                <li><code>&gt;</code></li>
+                <li><code>`</code></li>
+              </ol>
+
               <details>
-                <summary>
-                  <strong>Questions: </strong>You want to create a blockquote.
-                  Which symbol do you use at the start of the line? <br />
-                  A) <code>#</code> <br />
-                  B) <code>-</code> <br />
-                  C) <code>&gt;</code> <br />
-                  D) <code>`</code> <br />
-                </summary>
-                <p>
-                  <strong>Answer: </strong>
-                </p>
-                <pre><code>&gt; This is a blockquote</code></pre>
-                <p><strong>Result: </strong><strong>C</strong></p>
+                <summary>Show answer</summary>
+
+                <div class="answer-container">
+                  <p><strong>Answer:</strong> C. <code>&gt; This is a blockquote</code></p>
+                  <div class="result">
+                    <p><strong>Result:</strong></p>
+                    <blockquote>
+                      <p>This is a blockquote</p>
+                    </blockquote>
+                  </div>
+                </div>
               </details>
             </div>
           </section>
@@ -798,32 +888,18 @@
             </h2>
             <ul>
               <li>
-                Video of how to use After Effects by
-                <a href="https://www.youtube.com/@OctopusEffects"
-                  >Octopus Effects</a
-                >
-                on
-                <a href="https://www.youtube.com/watch?v=_J-sOi1iacg">YouTube</a
-                >.
-              </li>
-              <li>
-                <a href="https://www.markdownguide.org/getting-started/"
-                  >The Markdown Guide</a
-                >
+                <a href="https://www.markdownguide.org/getting-started/" target="_blank" rel="noopener noreferrer">
+                  The Markdown Guide
+                </a>
                 - A comprehensive resource for learning Markdown syntax and best
                 practices.
               </li>
               <li>
-                <a
-                  href="https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet"
-                  >GitHub Markdown Cheat Sheet</a
-                >
+                <a href="https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet" target="_blank" rel="noopener noreferrer">GitHub Markdown Cheat Sheet</a>
                 - A quick reference for GitHub Flavored Markdown syntax.
               </li>
               <li>
-                <a href="https://markdownlivepreview.com/"
-                  >Markdown Live Preview</a
-                >
+                <a href="https://markdownlivepreview.com/" target="_blank" rel="noopener noreferrer">Markdown Live Preview</a>
                 - An online tool that allows you to write Markdown and see the
                 rendered result in real time.
               </li>

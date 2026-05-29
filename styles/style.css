@@ -73,7 +73,7 @@ a:visited,
 a:focus,
 a:active,
 a:focus {
-  color: #000;
+  color: #00aeff;
   text-decoration: none;
   transition: all 0.3s ease;
 }
@@ -118,6 +118,7 @@ a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 2px;
 }
 
 .copy-ui {
@@ -299,7 +300,8 @@ section {
   padding-bottom: 1rem;
 }
 
-#what-is-it code {
+#what-is-it code,
+#where-would-you-use-it code {
   background-color: #cfcfcf;
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
@@ -312,7 +314,6 @@ section {
 }
 
 #what-is-it .example-table {
-  display: table;
   overflow-x: auto;
   margin: 1.5rem auto 4rem;
 }
@@ -425,10 +426,6 @@ section {
   text-align: left;
 }
 
-#where-would-you-use-it a {
-  color: #00aeff;
-}
-
 #where-would-you-use-it .mt-1 {
   margin-top: 1rem;
 }
@@ -441,16 +438,66 @@ section {
   font-size: 1rem;
 }
 
-#where-would-you-use-it .quote-container {
-  padding: 0.2rem 0.5rem;
-  background-color: #ececec;
-}
-
 #where-would-you-use-it .slack-sample-image,
 #where-would-you-use-it .swaggerui-sample-image {
   justify-self: center;
   display: block;
   border: solid #ccc 0.8px;
+}
+
+#demo .quiz-question {
+  padding: 1rem 0;
+}
+
+#demo .quiz-question:not(:first-of-type) {
+  border-top: solid 1px #ccc;
+}
+
+#demo details summary {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#demo details summary:hover {
+  opacity: 0.3;
+}
+
+#demo .answer-container {
+  margin: 0.25rem 0 0 1rem;
+}
+
+#demo .result {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+#demo .result h1, h4 {
+  margin: 0;
+}
+
+#demo .result h1 {
+  font-size: 2rem;
+}
+
+#demo .result h4 {
+  font-size: 1rem;
+}
+
+#demo .result ul,
+#demo .result ol {
+  padding: 0 0 0 1rem;
+  margin: 0;
+}
+
+#demo .result blockquote {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid #ccc;
+}
+
+#demo .result blockquote p {
+  margin: 0;
 }
 
 /* Footer
