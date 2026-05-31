@@ -313,6 +313,7 @@ section {
   padding-bottom: 1rem;
 }
 
+#overview code,
 #what-is-it code,
 #where-would-you-use-it code {
   background-color: #cfcfcf;
