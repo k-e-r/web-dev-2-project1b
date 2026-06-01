@@ -316,8 +316,10 @@ section {
   padding-bottom: 1rem;
 }
 
+#overview code,
 #what-is-it code,
 #how-do-you-use-it code,
+#why-would-you-use-it code,
 #where-would-you-use-it code {
   background-color: #cfcfcf;
   padding: 0.2rem 0.4rem;
@@ -477,6 +479,32 @@ section {
   border: 1px solid #000;
   padding: 0.875rem;
   text-align: left;
+}
+
+#why-would-you-use-it .reason-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+#why-would-you-use-it .reason-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+}
+
+#why-would-you-use-it .reason-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+}
+
+#why-would-you-use-it .reason-card p {
+  margin: 0;
 }
 
 #where-would-you-use-it .mt-1 {
