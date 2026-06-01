@@ -120,7 +120,6 @@ a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 2px;
 }
 
 .copy-ui {
@@ -131,9 +130,8 @@ a:hover {
 
 .copy-toast {
   position: absolute;
-  left: 50%;
-  bottom: 100%;
-  transform: translate(-50%, -6px);
+  left: 100%;
+  top: 25%;
   white-space: nowrap;
   font-size: 0.7rem;
   font-weight: 400;
