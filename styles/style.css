@@ -316,9 +316,10 @@ section {
   padding-bottom: 1rem;
 }
 
-#why-would-you-use-it code,
+#overview code,
 #what-is-it code,
 #how-do-you-use-it code,
+#why-would-you-use-it code,
 #where-would-you-use-it code {
   background-color: #cfcfcf;
   padding: 0.2rem 0.4rem;

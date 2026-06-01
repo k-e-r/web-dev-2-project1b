@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +10,14 @@
   <meta name="apple-mobile-web-app-title" content="Markdown">
   <link rel="manifest" href="/site.webmanifest">
   <title>Markdown | Team 2</title>
-  <meta name="description"
-    content="Learn what Markdown is, how its syntax works, where it is used, and how it helps create readable documentation.">
-  <meta name="keywords"
-    content="Markdown, Markdown syntax, lightweight markup language, GitHub README, documentation, Swagger UI, Slack mrkdwn">
+  <meta
+    name="description"
+    content="Learn what Markdown is, how its syntax works, where it is used, and how it helps create readable documentation."
+  >
+  <meta
+    name="keywords"
+    content="Markdown, Markdown syntax, lightweight markup language, GitHub README, documentation, Swagger UI, Slack mrkdwn"
+  >
   <meta name="author" content="Scott Ouellete, Talia Zhuang, Kaori Era">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
@@ -22,7 +25,6 @@
   <script src="scripts/copy-heading-link.js" defer></script>
   <script src="scripts/scrollspy.js" defer></script>
 </head>
-
 <body>
 
   <header>
@@ -60,40 +62,50 @@
         <h2 class="heading-with-copy">
           Technology Overview
           <span class="copy-ui">
-            <button class="copy-heading-link" onclick="copyHeadingLink('overview', this)"
-              aria-label="Copy link to Technology Overview"></button>
+            <button
+              class="copy-heading-link"
+              onclick="copyHeadingLink('overview', this)"
+              aria-label="Copy link to Technology Overview"
+            ></button>
             <span class="copy-toast" aria-live="polite">Copied!</span>
           </span>
         </h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Repudiandae nostrum facilis sunt corporis dolorem alias, et modi
-          quas minima ut expedita dolor nobis eveniet officiis temporibus
-          similique officia dolore magni! Quia provident ea sequi iusto
-          suscipit! Voluptatibus, eius. Necessitatibus sunt quas, numquam
-          vel aliquam ut temporibus facere blanditiis veniam pariatur optio
-          minus hic adipisci, neque cum debitis et quaerat consequuntur.
-          Consectetur libero adipisci mollitia in! Quos aliquid vitae minima
-          possimus, esse quia consequuntur libero nulla ea id beatae debitis
-          sapiente ipsa, alias a nam corporis eaque neque delectus obcaecati
-          impedit! Architecto, temporibus! Id reiciendis commodi ea amet!
-          Aperiam eos reiciendis, nostrum est distinctio non nam, a itaque,
-          maiores perferendis corporis eveniet quaerat laudantium! Aut
-          mollitia sapiente, corrupti magnam quas dolor. Non nemo assumenda
-          laboriosam autem pariatur modi rem! Sequi quasi eaque harum
-          aliquam dicta asperiores nihil reprehenderit, blanditiis
-          reiciendis fugit omnis exercitationem animi dolorem eveniet
-          quibusdam voluptas. Quibusdam, repellendus ducimus.
-        </p>
+        <p><strong>Markdown</strong> is a lightweight markup language for creating formatted text in a plain-text editor.</p>
+        <br>
+        <p>A <strong>markup language</strong> is a system used to annotate text in a digital document. It uses tags or
+          symbols to define the document's structure, formatting, or data relationships, telling computers how to
+          interpret, display, or organize the content rather than executing logical operations.</p>
+        <br>
+        <p>Common markup languages used today are:</p>
+        <ul>
+          <li>HTML (HyperText Markup Language): The backbone of the internet, used to structure and present content on
+            web pages (e.g., using <code>h1</h1></code> for headings).</li>
+          <li>XML (eXtensible Markup Language): Designed to store and transport data by allowing users to define their
+            own custom tags.</li>
+          <li>Markdown: A lightweight language designed for easy reading and writing. It formats plain text using
+            symbols like <code>#</code> or <code>*</code>.</li>
+          <li>LaTeX: A document preparation system heavily used in academia for complex mathematical and scientific
+            typesetting.</li>
+        </ul>
+        <br>
+        <p>There are three general categories of electronic markup, articulated by James Coombs, Allen Renear, and Steven DeRose in 1987, and Tim Bray in 2003.</p>
+        <ol>
+          <li>Presentational - Traditional word-processing systems</li>
+          <li>Procedural - TeX, troff, Markdown</li>
+          <li>Descriptive - HTML, XML, LaTex</li>
+        </ol>
       </section>
 
       <!-- Talia -->
       <section id="what-is-it">
         <h2 class="heading-with-copy">
-          What is it
+          What Is It
           <span class="copy-ui">
-            <button class="copy-heading-link" onclick="copyHeadingLink('what-is-it', this)"
-              aria-label="Copy link to Technology Overview"></button>
+            <button
+              class="copy-heading-link"
+              onclick="copyHeadingLink('what-is-it', this)"
+              aria-label="Copy link to What Is It"
+            ></button>
             <span class="copy-toast" aria-live="polite">Copied!</span>
           </span>
         </h2>
@@ -126,16 +138,12 @@
               <tr>
                 <td>#</td>
                 <td># Heading 1</td>
-                <td>
-                  <h1>Heading 1</h1>
-                </td>
+                <td><h1>Heading 1</h1></td>
               </tr>
               <tr>
                 <td>##</td>
                 <td>## Heading 2</td>
-                <td>
-                  <h2>Heading 2</h2>
-                </td>
+                <td><h2>Heading 2</h2></td>
               </tr>
               <tr>
                 <td>*</td>
@@ -173,7 +181,11 @@
                   Logo](https://markdown-here.com/img/icon256.png)
                 </td>
                 <td>
-                  <img src="https://markdown-here.com/img/icon256.png" alt="Markdown Logo" width="50">
+                  <img
+                    src="https://markdown-here.com/img/icon256.png"
+                    alt="Markdown Logo"
+                    width="50"
+                  >
                 </td>
               </tr>
               <tr>
@@ -191,10 +203,13 @@
       <!-- Kaori -->
       <section id="what-does-it-do">
         <h2 class="heading-with-copy">
-          What does it do
+          What Does It Do
           <span class="copy-ui">
-            <button class="copy-heading-link" onclick="copyHeadingLink('what-does-it-do', this)"
-              aria-label="Copy link to Technology Overview"></button>
+            <button
+              class="copy-heading-link"
+              onclick="copyHeadingLink('what-does-it-do', this)"
+              aria-label="Copy link to What Does It Do"
+            ></button>
             <span class="copy-toast" aria-live="polite">Copied!</span>
           </span>
         </h2>
@@ -221,14 +236,24 @@
             and the rendered result contain the same information.
           </p>
 
-          <div id="markdown-preview" class="markdown-preview" aria-hidden="true"></div>
+          <div
+            id="markdown-preview"
+            class="markdown-preview"
+            aria-hidden="true"
+          ></div>
           <figure>
             <a href="#markdown-zoomin" class="image-link">
               <picture>
-                <source srcset="assets/images/README-md-version.webp" type="image/webp">
-                <img src="assets/images/README-md-version.png"
+                <source
+                  srcset="assets/images/README-md-version.webp"
+                  type="image/webp"
+                >
+                <img
+                  src="assets/images/README-md-version.png"
                   alt="Visual Studio Code screenshot showing Markdown syntax beside a rendered README preview"
-                  width="1996" height="1210">
+                  width="1996"
+                  height="1210"
+                >
               </picture>
             </a>
 
@@ -239,10 +264,16 @@
           </figure>
 
           <div id="markdown-zoomin" class="popup">
-            <a href="#markdown-preview" class="popup-close" aria-label="Close enlarged image"></a>
+            <a
+              href="#markdown-preview"
+              class="popup-close"
+              aria-label="Close enlarged image"
+            ></a>
 
-            <img src="assets/images/README-md-version.png"
-              alt="Visual Studio Code screenshot showing Markdown syntax beside a rendered README preview">
+            <img
+              src="assets/images/README-md-version.png"
+              alt="Visual Studio Code screenshot showing Markdown syntax beside a rendered README preview"
+            >
           </div>
 
           <p>
@@ -251,14 +282,24 @@
             plain text.
           </p>
 
-          <div id="html-preview" class="html-preview" aria-hidden="true"></div>
+          <div
+            id="html-preview"
+            class="html-preview"
+            aria-hidden="true"
+          ></div>
           <figure>
             <a href="#html-zoomin" class="image-link">
               <picture>
-                <source srcset="assets/images/README-html-version.webp" type="image/webp">
-                <img src="assets/images/README-html-version.png"
+                <source
+                  srcset="assets/images/README-html-version.webp"
+                  type="image/webp"
+                >
+                <img
+                  src="assets/images/README-html-version.png"
                   alt="Visual Studio Code screenshot showing HTML syntax beside its rendered browser preview"
-                  width="1858" height="1094">
+                  width="1858"
+                  height="1094"
+                >
               </picture>
             </a>
 
@@ -269,10 +310,16 @@
           </figure>
 
           <div id="html-zoomin" class="popup">
-            <a href="#html-preview" class="popup-close" aria-label="Close enlarged image"></a>
+            <a
+              href="#html-preview"
+              class="popup-close"
+              aria-label="Close enlarged image"
+            ></a>
 
-            <img src="assets/images/README-html-version.png"
-              alt="Visual Studio Code screenshot showing HTML syntax beside its rendered browser preview">
+            <img
+              src="assets/images/README-html-version.png"
+              alt="Visual Studio Code screenshot showing HTML syntax beside its rendered browser preview"
+            >
           </div>
         </div>
       </section>
@@ -281,8 +328,11 @@
         <h2 class="heading-with-copy">
           How Do You Use It
           <span class="copy-ui">
-            <button class="copy-heading-link" onclick="copyHeadingLink('how-do-you-use-it', this)"
-              aria-label="Copy link to Technology Overview"></button>
+            <button
+              class="copy-heading-link"
+              onclick="copyHeadingLink('how-do-you-use-it', this)"
+              aria-label="Copy link to How Do You Use It"
+            ></button>
             <span class="copy-toast" aria-live="polite">Copied!</span>
           </span>
         </h2>
@@ -310,142 +360,238 @@
               <code>.md</code> extension, such as <code>Demo.md</code>.
             </p>
 
-            <div id="new-file-preview" class="new-file-preview" aria-hidden="true"></div>
+            <div
+              id="new-file-preview"
+              class="new-file-preview"
+              aria-hidden="true"
+            ></div>
             <figure>
               <a href="#new-file-zoomin" class="image-link">
                 <picture>
-                  <source srcset="assets/images/1a-create-a-new-file.webp" type="image/webp">
-                  <img src="assets/images/1a-create-a-new-file.png"
-                    alt="New File icon highlighted in Visual Studio Code" width="2084" height="1602">
+                  <source
+                    srcset="assets/images/1a-create-a-new-file.webp"
+                    type="image/webp"
+                  >
+                  <img
+                    src="assets/images/1a-create-a-new-file.png"
+                    alt="New File icon highlighted in Visual Studio Code"
+                    width="2084"
+                    height="1602"
+                  >
                 </picture>
               </a>
             </figure>
 
             <div id="new-file-zoomin" class="popup">
-              <a href="#new-file-preview" class="popup-close" aria-label="Close enlarged image"></a>
+              <a
+                href="#new-file-preview"
+                class="popup-close"
+                aria-label="Close enlarged image"
+              ></a>
 
-              <img src="assets/images/1a-create-a-new-file.png" alt="New File icon highlighted in Visual Studio Code">
+              <img
+                src="assets/images/1a-create-a-new-file.png"
+                alt="New File icon highlighted in Visual Studio Code"
+              >
             </div>
 
-            <div id="name-file-preview" class="name-file-preview" aria-hidden="true"></div>
+            <div
+              id="name-file-preview"
+              class="name-file-preview"
+              aria-hidden="true"
+            ></div>
             <figure>
               <a href="#name-file-zoomin" class="image-link">
                 <picture>
-                  <source srcset="assets/images/1b-name-the-file-with-md-extension.webp" type="image/webp">
-                  <img src="assets/images/1b-name-the-file-with-md-extension.png"
-                    alt="Markdown file name Demo.md highlighted in Visual Studio Code" width="2084" height="1602">
+                  <source
+                    srcset="assets/images/1b-name-the-file-with-md-extension.webp"
+                    type="image/webp"
+                  >
+                  <img
+                    src="assets/images/1b-name-the-file-with-md-extension.png"
+                    alt="Markdown file name Demo.md highlighted in Visual Studio Code"
+                    width="2084"
+                    height="1602"
+                  >
                 </picture>
               </a>
             </figure>
 
             <div id="name-file-zoomin" class="popup">
-              <a href="#name-file-preview" class="popup-close" aria-label="Close enlarged image"></a>
+              <a
+                href="#name-file-preview"
+                class="popup-close"
+                aria-label="Close enlarged image"
+              ></a>
 
-              <img src="assets/images/1b-name-the-file-with-md-extension.png"
-                alt="Markdown file name Demo.md highlighted in Visual Studio Code">
+              <img
+                src="assets/images/1b-name-the-file-with-md-extension.png"
+                alt="Markdown file name Demo.md highlighted in Visual Studio Code"
+              >
             </div>
           </li>
 
           <li>
             <strong>Write plain text.</strong>
             <p>Start by typing your content normally, just like writing notes or a simple
-              document.</p>
+            document.</p>
 
-            <div id="write-plain-text-preview" class="write-plain-text-preview" aria-hidden="true"></div>
+            <div
+              id="write-plain-text-preview"
+              class="write-plain-text-preview"
+              aria-hidden="true"
+            ></div>
             <figure>
               <a href="#write-plain-text-zoomin" class="image-link">
                 <picture>
-                  <source srcset="assets/images/2-write-plain-text.webp" type="image/webp">
-                  <img src="assets/images/2-write-plain-text.png"
-                    alt="Visual Studio Code showing plain text typed in a Markdown file named Demo.md" width="2084"
-                    height="1602">
+                  <source
+                    srcset="assets/images/2-write-plain-text.webp"
+                    type="image/webp"
+                  >
+                  <img
+                    src="assets/images/2-write-plain-text.png"
+                    alt="Visual Studio Code showing plain text typed in a Markdown file named Demo.md"
+                    width="2084"
+                    height="1602"
+                  >
                 </picture>
               </a>
             </figure>
 
             <div id="write-plain-text-zoomin" class="popup">
-              <a href="#write-plain-text-preview" class="popup-close" aria-label="Close enlarged image"></a>
+              <a
+                href="#write-plain-text-preview"
+                class="popup-close"
+                aria-label="Close enlarged image"
+              ></a>
 
-              <img src="assets/images/2-write-plain-text.png"
-                alt="Visual Studio Code showing plain text typed in a Markdown file named Demo.md">
+              <img
+                src="assets/images/2-write-plain-text.png"
+                alt="Visual Studio Code showing plain text typed in a Markdown file named Demo.md"
+              >
             </div>
           </li>
 
           <li>
             <strong>Add Markdown syntax.</strong>
-            <p>Use simple symbols to structure the content. For example, <code>#</code> creates a heading,
-              <code>**text**</code> creates bold text, and <code>- item</code> creates a bullet list.
-            </p>
+            <p>Use simple symbols to structure the content. For example, <code>#</code> creates a heading, <code>**text**</code> creates bold text, and <code>- item</code> creates a bullet list.</p>
 
-            <div id="add-markdown-syntax-preview" class="add-markdown-syntax-preview" aria-hidden="true"></div>
+            <div
+              id="add-markdown-syntax-preview"
+              class="add-markdown-syntax-preview"
+              aria-hidden="true"
+            ></div>
             <figure>
               <a href="#add-markdown-syntax-zoomin" class="image-link">
                 <picture>
-                  <source srcset="assets/images/3-add-markdown-syntax.webp" type="image/webp">
-                  <img src="assets/images/3-add-markdown-syntax.png"
-                    alt="Markdown syntax added to Demo.md in Visual Studio Code" width="2084" height="1602">
+                  <source
+                    srcset="assets/images/3-add-markdown-syntax.webp"
+                    type="image/webp"
+                  >
+                  <img
+                    src="assets/images/3-add-markdown-syntax.png"
+                    alt="Markdown syntax added to Demo.md in Visual Studio Code"
+                    width="2084"
+                    height="1602"
+                  >
                 </picture>
               </a>
             </figure>
 
             <div id="add-markdown-syntax-zoomin" class="popup">
-              <a href="#add-markdown-syntax-preview" class="popup-close" aria-label="Close enlarged image"></a>
+              <a
+                href="#add-markdown-syntax-preview"
+                class="popup-close"
+                aria-label="Close enlarged image"
+              ></a>
 
-              <img src="assets/images/3-add-markdown-syntax.png"
-                alt="Markdown syntax added to Demo.md in Visual Studio Code">
+              <img
+                src="assets/images/3-add-markdown-syntax.png"
+                alt="Markdown syntax added to Demo.md in Visual Studio Code"
+              >
             </div>
           </li>
 
           <li>
             <strong>Open the preview.</strong>
             <p>In Visual Studio Code, right-click inside the Markdown file and select
-              <strong>Open Preview</strong>. You can also use
-              <strong>Open Preview to the Side</strong> to see the Markdown and the
-              rendered result side by side.
-            </p>
+            <strong>Open Preview</strong>. You can also use
+            <strong>Open Preview to the Side</strong> to see the Markdown and the
+            rendered result side by side.</p>
 
-            <div id="open-preview-preview" class="open-preview-preview" aria-hidden="true"></div>
+            <div
+              id="open-preview-preview"
+              class="open-preview-preview"
+              aria-hidden="true"
+            ></div>
             <figure>
               <a href="#open-preview-zoomin" class="image-link">
                 <picture>
-                  <source srcset="assets/images/4-open-the-preview.webp" type="image/webp">
-                  <img src="assets/images/4-open-the-preview.png"
+                  <source
+                    srcset="assets/images/4-open-the-preview.webp"
+                    type="image/webp"
+                  >
+                  <img
+                    src="assets/images/4-open-the-preview.png"
                     alt="Visual Studio Code showing the Markdown preview button highlighted in the editor toolbar"
-                    width="2084" height="1602">
+                    width="2084"
+                    height="1602"
+                  >
                 </picture>
               </a>
             </figure>
 
             <div id="open-preview-zoomin" class="popup">
-              <a href="#open-preview-preview" class="popup-close" aria-label="Close enlarged image"></a>
+              <a
+                href="#open-preview-preview"
+                class="popup-close"
+                aria-label="Close enlarged image"
+              ></a>
 
-              <img src="assets/images/4-open-the-preview.png"
-                alt="Visual Studio Code showing the Markdown preview button highlighted in the editor toolbar">
+              <img
+                src="assets/images/4-open-the-preview.png"
+                alt="Visual Studio Code showing the Markdown preview button highlighted in the editor toolbar"
+              >
             </div>
           </li>
 
           <li>
             <strong>Compare the raw text and the result.</strong>
-            <p>The Markdown file remains readable as plain text, while the preview shows how it will look when rendered.
-            </p>
+            <p>The Markdown file remains readable as plain text, while the preview shows how it will look when rendered.</p>
 
-            <div id="compare-preview" class="compare-preview" aria-hidden="true"></div>
+            <div
+              id="compare-preview"
+              class="compare-preview"
+              aria-hidden="true"
+            ></div>
             <figure>
               <a href="#compare-zoomin" class="image-link">
                 <picture>
-                  <source srcset="assets/images/5-compare-the-raw-text-and-the-result.webp" type="image/webp">
-                  <img src="assets/images/5-compare-the-raw-text-and-the-result.png"
+                  <source
+                    srcset="assets/images/5-compare-the-raw-text-and-the-result.webp"
+                    type="image/webp"
+                  >
+                  <img
+                    src="assets/images/5-compare-the-raw-text-and-the-result.png"
                     alt="Visual Studio Code showing Demo.md and its rendered Markdown preview side by side with a message that says That's it"
-                    width="2084" height="1602">
+                    width="2084"
+                    height="1602"
+                  >
                 </picture>
               </a>
             </figure>
 
             <div id="compare-zoomin" class="popup">
-              <a href="#compare-preview" class="popup-close" aria-label="Close enlarged image"></a>
+              <a
+                href="#compare-preview"
+                class="popup-close"
+                aria-label="Close enlarged image"
+              ></a>
 
-              <img src="assets/images/5-compare-the-raw-text-and-the-result.png"
-                alt="Visual Studio Code showing Demo.md and its rendered Markdown preview side by side with a message that says That's it">
+              <img
+                src="assets/images/5-compare-the-raw-text-and-the-result.png"
+                alt="Visual Studio Code showing Demo.md and its rendered Markdown preview side by side with a message that says That's it"
+              >
             </div>
           </li>
         </ol>
@@ -454,10 +600,13 @@
       <!-- Scott -->
       <section id="why-would-you-use-it">
         <h2 class="heading-with-copy">
-          Why would you use it
+          Why Would You Use It
           <span class="copy-ui">
-            <button class="copy-heading-link" onclick="copyHeadingLink('why-would-you-use-it', this)"
-              aria-label="Copy link to Why Would You Use It"></button>
+            <button
+              class="copy-heading-link"
+              onclick="copyHeadingLink('why-would-you-use-it', this)"
+              aria-label="Copy link to Why Would You Use It"
+            ></button>
             <span class="copy-toast" aria-live="polite">Copied!</span>
           </span>
         </h2>
@@ -519,10 +668,13 @@
       <!-- Kaori -->
       <section id="where-would-you-use-it">
         <h2 class="heading-with-copy">
-          Where would you use it
+          Where Would You Use It
           <span class="copy-ui">
-            <button class="copy-heading-link" onclick="copyHeadingLink('where-would-you-use-it', this)"
-              aria-label="Copy link to Technology Overview"></button>
+            <button
+              class="copy-heading-link"
+              onclick="copyHeadingLink('where-would-you-use-it', this)"
+              aria-label="Copy link to Where Would You Use It"
+            ></button>
             <span class="copy-toast" aria-live="polite">Copied!</span>
           </span>
         </h2>
@@ -546,8 +698,11 @@
           <a href="#what-is-it">“What Is It?” section</a>, different
           platforms may interpret Markdown differently or add their own
           extra features. These versions are often called
-          <a href="https://www.markdownguide.org/getting-started/#flavors-of-markdown" target="_blank"
-            rel="noopener noreferrer">Markdown “flavors.”</a>
+          <a
+            href="https://www.markdownguide.org/getting-started/#flavors-of-markdown"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Markdown “flavors.”</a>
         </p>
         <p>
           That is why Markdown may look slightly different depending on
@@ -561,20 +716,33 @@
           </p>
           <p>
             Here is a sample from
-            <a href="https://slack.com/" target="_blank" rel="noopener noreferrer">Slack</a>. Can you guess how many
-            formatting
-            features this post uses?
+            <a
+              href="https://slack.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Slack</a>. Can you guess how many formatting
+              features this post uses?
           </p>
 
-          <div id="slack-preview" class="slack-preview" aria-hidden="true"></div>
+          <div
+            id="slack-preview"
+            class="slack-preview"
+            aria-hidden="true"
+          ></div>
           <figure>
             <a href="#slack-zoomin" class="image-link">
-              <img class="slack-sample-image" src="assets/images/slack-sample-566.png" srcset="
-                    assets/images/slack-sample-566.png   566w,
-                    assets/images/slack-sample-1132.png 1132w
-                  " sizes="(max-width: 600px) 100vw, 566px"
+              <img
+                class="slack-sample-image"
+                src="assets/images/slack-sample-566.png"
+                srcset="
+                  assets/images/slack-sample-566.png   566w,
+                  assets/images/slack-sample-1132.png 1132w
+                "
+                sizes="(max-width: 600px) 100vw, 566px"
                 alt="Slack message example showing @channel, a user mention, bold text, and an animated emoji"
-                width="566" height="226">
+                width="566"
+                height="226"
+              >
             </a>
             <figcaption>
               Slack uses Markdown-like formatting, such as bold text, along
@@ -583,10 +751,16 @@
           </figure>
 
           <div id="slack-zoomin" class="popup">
-            <a href="#slack-preview" class="popup-close" aria-label="Close enlarged image"></a>
+            <a
+              href="#slack-preview"
+              class="popup-close"
+              aria-label="Close enlarged image"
+            ></a>
 
-            <img src="assets/images/slack-sample-1132.png"
-              alt="Slack message example showing @channel, a user mention, bold text, and an animated emoji">
+            <img
+              src="assets/images/slack-sample-1132.png"
+              alt="Slack message example showing @channel, a user mention, bold text, and an animated emoji"
+            >
           </div>
 
           <p>It uses four features. Let's check them out.</p>
@@ -617,8 +791,12 @@
 
         <div class="swaggerui-sample-discription">
           <p class="mt-15">Here is another sample from
-            <a href="https://swagger.io/tools/swagger-ui/" target="_blank" rel="noopener noreferrer">Swagger UI</a>.
-          </p>
+            <a
+              href="https://swagger.io/tools/swagger-ui/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Swagger UI</a
+            >.</p>
           <p>
             Swagger UI is a tool that turns API specifications into
             interactive documentation. Developers can use it to explain API
@@ -635,15 +813,27 @@
             Markdown syntax.
           </p>
 
-          <div id="swaggerui-preview" class="swaggerui-preview" aria-hidden="true"></div>
+          <div
+            id="swaggerui-preview"
+            class="swaggerui-preview"
+            aria-hidden="true"
+          ></div>
           <figure>
             <a href="#swaggerui-zoomin" class="image-link">
               <picture>
-                <source media="(min-width: 900px)" srcset="assets/images/swaggerui-sample-1444.png" width="1444"
-                  height="451">
-                <img class="swaggerui-sample-image" src="assets/images/swaggerui-sample-600.png"
+                <source
+                  media="(min-width: 900px)"
+                  srcset="assets/images/swaggerui-sample-1444.png"
+                  width="1444"
+                  height="451"
+                >
+                <img
+                  class="swaggerui-sample-image"
+                  src="assets/images/swaggerui-sample-600.png"
                   alt="Swagger UI screenshot showing an API documentation sample beside a YAML file with Markdown syntax"
-                  width="600" height="226">
+                  width="600"
+                  height="226"
+                >
               </picture>
             </a>
 
@@ -654,18 +844,28 @@
           </figure>
 
           <div id="swaggerui-zoomin" class="popup">
-            <a href="#swaggerui-preview" class="popup-close" aria-label="Close enlarged image"></a>
+            <a
+              href="#swaggerui-preview"
+              class="popup-close"
+              aria-label="Close enlarged image"
+            ></a>
 
             <picture class="popup-image">
-              <source media="(min-width: 900px)" srcset="assets/images/swaggerui-sample-1444.png" width="1444"
-                height="451">
-              <img src="assets/images/swaggerui-sample-600.png"
+              <source
+                media="(min-width: 900px)"
+                srcset="assets/images/swaggerui-sample-1444.png"
+                width="1444"
+                height="451"
+              >
+              <img
+                src="assets/images/swaggerui-sample-600.png"
                 alt="Enlarged Swagger UI screenshot showing an API documentation sample beside a YAML file with Markdown syntax"
-                width="600" height="226">
+                width="600"
+                height="226"
+              >
             </picture>
           </div>
-          <p>For this sample, we use YAML because it is easier to write and read. JSON files can also be used, but YAML
-            is more convenient here because it requires less escaping, especially when writing Markdown syntax.</p>
+          <p>For this sample, we use YAML because it is easier to write and read. JSON files can also be used, but YAML is more convenient here because it requires less escaping, especially when writing Markdown syntax.</p>
         </div>
       </section>
 
@@ -674,8 +874,11 @@
         <h2 class="heading-with-copy">
           Pros & Cons
           <span class="copy-ui">
-            <button class="copy-heading-link" onclick="copyHeadingLink('pros-and-cons', this)"
-              aria-label="Copy link to Technology Overview"></button>
+            <button
+              class="copy-heading-link"
+              onclick="copyHeadingLink('pros-and-cons', this)"
+              aria-label="Copy link to Pros and Cons"
+            ></button>
             <span class="copy-toast" aria-live="polite">Copied!</span>
           </span>
         </h2>
@@ -722,8 +925,11 @@
         <h2 class="heading-with-copy">
           Demo: Markdown Quiz
           <span class="copy-ui">
-            <button class="copy-heading-link" onclick="copyHeadingLink('demo', this)"
-              aria-label="Copy link to Technology Overview"></button>
+            <button
+              class="copy-heading-link"
+              onclick="copyHeadingLink('demo', this)"
+              aria-label="Copy link to Demo"
+            ></button>
             <span class="copy-toast" aria-live="polite">Copied!</span>
           </span>
         </h2>
@@ -863,8 +1069,7 @@
 
         <div class="quiz-question">
           <p>
-            <strong>Question:</strong> You want a link that says "Click here" and goes to https://brownie.com. which is
-            correct?
+            <strong>Question:</strong> You want a link that says "Click here" and goes to https://brownie.com. which is correct?
           </p>
 
           <ol type="A">
@@ -960,7 +1165,12 @@
               <p><strong>Answer:</strong> A. <code>![alt text](URL)</code></p>
               <div class="result">
                 <p><strong>Result:</strong></p>
-                <img src="assets/images/placeholder-image-100x90.svg" alt="alt text" width="100" height="90">
+                <img
+                  src="assets/images/placeholder-image-100x90.svg"
+                  alt="alt text"
+                  width="100"
+                  height="90"
+                >
               </div>
             </div>
           </details>
@@ -968,8 +1178,7 @@
 
         <div class="quiz-question">
           <p>
-            <strong>Question:</strong> You want to create a blockquote. Which symbol do you use at the start of the
-            line?
+            <strong>Question:</strong> You want to create a blockquote. Which symbol do you use at the start of the line?
           </p>
 
           <ol type="A">
@@ -1000,8 +1209,11 @@
         <h2 class="heading-with-copy">
           Reference
           <span class="copy-ui">
-            <button class="copy-heading-link" onclick="copyHeadingLink('reference', this)"
-              aria-label="Copy link to Technology Overview"></button>
+            <button
+              class="copy-heading-link"
+              onclick="copyHeadingLink('reference', this)"
+              aria-label="Copy link to Reference"
+            ></button>
             <span class="copy-toast" aria-live="polite">Copied!</span>
           </span>
         </h2>
@@ -1015,21 +1227,18 @@
           </li>
 
           <li>
-            <a href="https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet" target="_blank"
-              rel="noopener noreferrer">GitHub Markdown Cheat Sheet</a>
+            <a href="https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet" target="_blank" rel="noopener noreferrer">GitHub Markdown Cheat Sheet</a>
             - A quick reference for GitHub Flavored Markdown syntax.
           </li>
 
           <li>
-            <a href="https://markdownlivepreview.com/" target="_blank" rel="noopener noreferrer">Markdown Live
-              Preview</a>
+            <a href="https://markdownlivepreview.com/" target="_blank" rel="noopener noreferrer">Markdown Live Preview</a>
             - An online tool that allows you to write Markdown and see the
             rendered result in real time.
           </li>
 
           <li>
-            <a href="https://swagger.io/docs/specification/v3_0/basic-structure/" target="_blank"
-              rel="noopener noreferrer">
+            <a href="https://swagger.io/docs/specification/v3_0/basic-structure/" target="_blank" rel="noopener noreferrer">
               Swagger / OpenAPI Documentation
             </a>
             — Information about API description files and documentation structure.
