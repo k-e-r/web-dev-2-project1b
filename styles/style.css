@@ -316,6 +316,7 @@ section {
   padding-bottom: 1rem;
 }
 
+#overview code,
 #what-is-it code,
 #how-do-you-use-it code,
 #where-would-you-use-it code {
