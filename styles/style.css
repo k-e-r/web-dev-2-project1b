@@ -132,8 +132,8 @@ a:hover {
 .copy-toast {
   position: absolute;
   left: 50%;
-  bottom: 100%;
-  transform: translate(-50%, -6px);
+  bottom: 90%;
+  transform: translateX(-50%);
   white-space: nowrap;
   font-size: 0.7rem;
   font-weight: 400;
@@ -312,7 +312,7 @@ header {
 /* section
 --------------------------------------------- */
 section {
-  scroll-margin-top: 70px;
+  scroll-margin-top: 80px;
   padding-bottom: 1rem;
 }
 
