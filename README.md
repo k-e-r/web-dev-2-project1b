@@ -21,10 +21,12 @@
 - Technology Overview
 - What is it?
 - What does it do?
+- How do you use it?
 - Why would you use it?
 - Where would you use it?
 - Pros and Cons
-- Demo
+- Demo: Markdown Quiz
+- Reference
 
 ## Built With
 
