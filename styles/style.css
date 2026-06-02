@@ -74,7 +74,7 @@ a:visited,
 a:focus,
 a:active,
 a:focus {
-  color: #00aeff;
+  color: #000000;
   text-decoration: none;
   transition: all 0.3s ease;
 }
@@ -358,7 +358,9 @@ section {
   text-align: center;
 }
 
-#what-is-it a {
+#what-is-it a,
+#where-would-you-use-it a,
+#reference a {
   color: #000;
   text-decoration: underline;
 }
@@ -414,8 +416,8 @@ section {
 #what-does-it-do .popup img,
 #how-do-you-use-it .popup img,
 #where-would-you-use-it .popup img {
-  max-width: 90vw;
-  max-height: 90vh;
+  max-width: 100%;
+  max-height: 100%;
   height: auto;
 }
 
@@ -441,6 +443,10 @@ section {
   height: 4.5rem;
 }
 
+#how-do-you-use-it ol {
+  padding-inline-start: 20px;
+}
+
 #how-do-you-use-it .step-list li {
   margin-bottom: 2rem;
 }
@@ -456,6 +462,10 @@ section {
   align-items: center;
   justify-content: center;
   font-size: 0.9rem;
+}
+
+#how-do-you-use-it figure {
+  margin: 0;
 }
 
 #how-do-you-use-it .step-image-placeholder figcaption {
@@ -518,6 +528,11 @@ section {
   font-size: 1rem;
 }
 
+#where-would-you-use-it figure {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
 #where-would-you-use-it .slack-sample-image,
 #where-would-you-use-it .swaggerui-sample-image {
   justify-self: center;
@@ -578,6 +593,21 @@ section {
 
 #demo .result blockquote p {
   margin: 0;
+}
+
+@media (min-width: 50em) {
+  #where-would-you-use-it figure {
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+  }
+
+  #what-does-it-do .popup img,
+  #how-do-you-use-it .popup img,
+  #where-would-you-use-it .popup img {
+    max-width: 90vw;
+    max-height: 90vh;
+    height: auto;
+  }
 }
 
 /* Footer
